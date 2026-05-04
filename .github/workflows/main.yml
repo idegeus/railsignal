@@ -20,6 +20,6 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           port: 22
           script: |
-            cd /app
+            cd /app/railsignal
             git pull origin main
-            sh /app/infra/deploy.sh
+            sh ./infra/deploy.sh
