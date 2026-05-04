@@ -46,7 +46,12 @@ export default function App() {
 
   useEffect(() => {
     hasSeenOnboarding().then(setOnboardingDone);
-    isLogging().then(setLogging);
+    // If the native task survived a JS restart (killed app, reinstall, hot reload),
+    // stop it so the user always starts from a clean "not logging" state.
+    isLogging().then(async (running) => {
+      if (running) await stopLogging();
+      setLogging(false);
+    });
     refreshCount();
   }, []);
 

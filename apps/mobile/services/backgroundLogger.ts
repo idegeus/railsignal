@@ -6,6 +6,7 @@ import Telephony from '../modules/telephony';
 import { insertReading } from '../store/db';
 import { snapToGrid } from './journeyDetector';
 import { saveActiveJourneyId, clearActiveJourneyId, getActiveJourneyId } from '../store/settings';
+import { getNearestStation } from './stationDetector';
 import { t } from '../i18n';
 
 export const LOCATION_TASK = 'railsignal-location';
@@ -14,6 +15,28 @@ export const LOCATION_TASK = 'railsignal-location';
 // than timeInterval (common with accuracy: High + distanceInterval: 0).
 let lastInsertAt = 0;
 const MIN_INTERVAL_MS = 8_000;
+
+const TASK_OPTIONS: Location.LocationTaskOptions = {
+  accuracy: Location.Accuracy.High, // Balanced batches at 30s and has no speed; debounce handles flooding
+  timeInterval: 10_000,
+  distanceInterval: 0,
+  foregroundService: {
+    notificationTitle: t.notificationTitle,
+    notificationBody: t.notificationBody,
+  },
+  pausesUpdatesAutomatically: false,
+};
+
+function formatNotificationBody(signalDbm: number | null, networkType: string | null, lat: number, lng: number): string {
+  const nearest = getNearestStation(lat, lng);
+  const stationPart = nearest.distanceMetres < 1500
+    ? ` · ${t.nearStation} ${nearest.name}`
+    : '';
+  const signalPart = signalDbm != null
+    ? `${signalDbm} dBm${networkType ? ` (${networkType})` : ''}`
+    : t.notificationBody;
+  return `${signalPart}${stationPart}`;
+}
 
 // Registered at module level — must be called before the app renders.
 TaskManager.defineTask(LOCATION_TASK, async ({ data, error }) => {
@@ -73,6 +96,26 @@ TaskManager.defineTask(LOCATION_TASK, async ({ data, error }) => {
   });
 
   console.log(`[RailSignal] reading inserted — signal: ${signal.signalDbm} dBm, type: ${signal.networkType}`);
+
+  // Update the foreground notification with live signal + nearest station.
+  // Calling startLocationUpdatesAsync on a running task updates options in-place.
+  try {
+    const notificationBody = formatNotificationBody(
+      signal.signalDbm,
+      signal.networkType,
+      loc.coords.latitude,
+      loc.coords.longitude,
+    );
+    await Location.startLocationUpdatesAsync(LOCATION_TASK, {
+      ...TASK_OPTIONS,
+      foregroundService: {
+        notificationTitle: t.notificationTitle,
+        notificationBody,
+      },
+    });
+  } catch {
+    // Non-critical — logging continues even if the notification update fails.
+  }
 });
 
 // Shared with the task via module scope; persisted to disk so it survives JS
@@ -106,16 +149,7 @@ export async function startLogging(journeyId: string): Promise<void> {
   const { status: bgStatus } = await Location.requestBackgroundPermissionsAsync();
   if (bgStatus !== 'granted') throw new Error('Background location permission denied');
 
-  await Location.startLocationUpdatesAsync(LOCATION_TASK, {
-    accuracy: Location.Accuracy.High, // Balanced batches at 30s and has no speed; debounce handles flooding
-    timeInterval: 10_000,
-    distanceInterval: 0,
-    foregroundService: {
-      notificationTitle: t.notificationTitle,
-      notificationBody: t.notificationBody,
-    },
-    pausesUpdatesAutomatically: false,
-  });
+  await Location.startLocationUpdatesAsync(LOCATION_TASK, TASK_OPTIONS);
 
   console.log('[RailSignal] startLogging: task started');
 }
