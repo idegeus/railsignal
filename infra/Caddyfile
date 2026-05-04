@@ -2,6 +2,10 @@
 # Caddy obtains a Let's Encrypt certificate automatically on first startup.
 # DNS A record must point to this server before deploying.
 
+vpn.{$DOMAIN} {
+    reverse_proxy localhost:51821
+}
+
 {$DOMAIN} {
     # FastAPI backend
     handle /api/* {
