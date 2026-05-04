@@ -1,16 +1,25 @@
 import csv
 import io
+import os
 
 from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse, StreamingResponse
 from geoalchemy2.shape import to_shape
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from api.db.models import SignalReading
 from api.deps import get_db
 
 router = APIRouter(prefix="/export", tags=["export"])
+
+# R11 track geometry loaded once at startup.
+# Used to exclude readings more than 200 m from the track (anonymisation).
+_WKT_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'r11_track.wkt')
+with open(_WKT_PATH) as _f:
+    _R11_TRACK_WKT = _f.read().strip()
+
+_TRACK_BUFFER_M = 200
 
 CSV_FIELDS = [
     "id", "journey_id", "timestamp", "lat", "lng",
@@ -19,9 +28,22 @@ CSV_FIELDS = [
 ]
 
 
+def _within_track(column):
+    """True if the geometry column is within 200 m of the R11 track."""
+    return func.ST_DWithin(
+        func.ST_GeogFromWKB(column),
+        func.ST_GeogFromText(_R11_TRACK_WKT),
+        _TRACK_BUFFER_M,
+    )
+
+
 @router.get("/geojson")
 async def export_geojson(db: AsyncSession = Depends(get_db)):
-    stmt = select(SignalReading).where(SignalReading.location.isnot(None))
+    stmt = (
+        select(SignalReading)
+        .where(SignalReading.location.isnot(None))
+        .where(_within_track(SignalReading.location))
+    )
     result = await db.execute(stmt)
     readings = result.scalars().all()
 

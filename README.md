@@ -337,6 +337,16 @@ Services started:
 docker compose -f infra/docker-compose.yml exec api alembic upgrade head
 ```
 
+### Web dashboard
+
+```bash
+cd frontend/web
+npm install
+npm run dev
+```
+
+Opens at http://localhost:5173. API calls are proxied to `http://localhost:8000` so the backend Docker stack must be running.
+
 ### Mobile app
 
 ```bash
