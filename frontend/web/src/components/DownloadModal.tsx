@@ -4,6 +4,9 @@ import { useLang } from '../i18n';
 
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=cat.viesambcobertura.app';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const track = (event: string, params?: Record<string, string>) => (window as any).gtag?.('event', event, params);
+
 interface DownloadContextValue {
   openDownload: () => void;
 }
@@ -35,12 +38,14 @@ function Modal({ onClose }: { onClose: () => void }) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email }),
         });
+        track('sign_up', { method: 'download_modal' });
       } catch {
         // best-effort — proceed to Play Store regardless
       } finally {
         setLoading(false);
       }
     }
+    track('google_play_click', { source: 'download_modal' });
     setDone(true);
   }
 

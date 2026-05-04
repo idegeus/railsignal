@@ -3,6 +3,9 @@ import { useLang } from '../i18n';
 
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=cat.viesambcobertura.app';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const track = (event: string, params?: Record<string, string>) => (window as any).gtag?.('event', event, params);
+
 export default function Newsletter() {
   const { t } = useLang();
   const [email, setEmail] = useState('');
@@ -22,6 +25,7 @@ export default function Newsletter() {
         body: JSON.stringify({ email }),
       });
       if (!res.ok) throw new Error();
+      track('sign_up', { method: 'newsletter' });
       setSubmitted(true);
     } catch {
       setError(t(
@@ -73,6 +77,7 @@ export default function Newsletter() {
               href={PLAY_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track('google_play_click', { source: 'newsletter' })}
               className="inline-flex items-center gap-2 bg-transit-red text-white font-bold text-sm uppercase px-8 py-4 hover:bg-primary transition-colors"
             >
               <span
