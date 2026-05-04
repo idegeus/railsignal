@@ -14,7 +14,7 @@ export default function Nav() {
 
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1 text-sm font-bold tracking-wider">
-            {(['ca', 'es'] as Lang[]).map((l, i) => (
+            {(['ca', 'es', 'en'] as Lang[]).map((l, i) => (
               <>
                 {i > 0 && <span key={`sep-${l}`} className="text-outline-variant">|</span>}
                 <button
@@ -33,7 +33,7 @@ export default function Nav() {
             onClick={openDownload}
             className="bg-transit-red text-white px-4 py-2 text-sm font-bold uppercase hover:bg-primary transition-colors"
           >
-            {t("Baixa l'App", 'Descarga la App')}
+            {t("Baixa l'App", 'Descarga la App', 'Download the App')}
           </button>
         </div>
       </div>

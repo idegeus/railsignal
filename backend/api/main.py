@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.routes import readings, segments, export, stats
+from api.routes import readings, segments, export, stats, signup
 
 app = FastAPI(
     title="RailSignal API",
@@ -21,6 +21,7 @@ app.include_router(readings.router, prefix="/api/v1")
 app.include_router(segments.router, prefix="/api/v1")
 app.include_router(export.router, prefix="/api/v1")
 app.include_router(stats.router, prefix="/api/v1")
+app.include_router(signup.router, prefix="/api/v1")
 
 
 @app.get("/health")

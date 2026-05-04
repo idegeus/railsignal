@@ -41,14 +41,18 @@ def upgrade() -> None:
         sa.Column('speed_kmh', sa.Float(), nullable=True),
         sa.Column('platform', sa.Text(), nullable=True),
         sa.Column('app_version', sa.Text(), nullable=True),
+        sa.Column('received_at', sa.TIMESTAMP(timezone=True), nullable=False,
+                  server_default=sa.func.now()),
+        sa.Column('uploader_ip', sa.String(45), nullable=True),
     )
     op.create_index('idx_reading_journey', 'signal_reading', ['journey_id'])
     op.create_index('idx_reading_timestamp', 'signal_reading', ['timestamp'])
+    op.create_index('idx_reading_ip', 'signal_reading', ['uploader_ip'])
 
     op.create_table(
         'segment_aggregate',
         sa.Column('id', sa.Integer(), primary_key=True, autoincrement=True),
-        sa.Column('segment_geom', geoalchemy2.types.Geometry('LINESTRING', srid=4326),
+        sa.Column('segment_geom', geoalchemy2.types.Geometry('POINT', srid=4326),
                   nullable=False),
         sa.Column('route_id', sa.Text(), nullable=False, index=True),
         sa.Column('operator', sa.Text(), nullable=True),

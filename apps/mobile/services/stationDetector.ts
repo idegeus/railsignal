@@ -1,6 +1,7 @@
 import * as Location from 'expo-location';
 import * as Notifications from 'expo-notifications';
 import * as TaskManager from 'expo-task-manager';
+import { t } from '../i18n';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const stationsGeoJSON = require('../data/r11_stations.json') as {
@@ -59,8 +60,8 @@ TaskManager.defineTask(GEOFENCE_TASK, async ({ data, error }) => {
 
   Notifications.scheduleNotificationAsync({
     content: {
-      title: '🚆 Train station nearby',
-      body: `You're near ${name}. RailSignal will log signal quality on your journey.`,
+      title: t.stationTitle,
+      body: t.stationBody(name),
       data: { stopId },
     },
     trigger: null,
@@ -92,4 +93,33 @@ export async function stopStationDetection(): Promise<void> {
 
 export async function isStationDetectionRunning(): Promise<boolean> {
   return Location.hasStartedGeofencingAsync(GEOFENCE_TASK);
+}
+
+export type NearestStation = { name: string; distanceMetres: number };
+
+export function getNearestStation(lat: number, lng: number): NearestStation {
+  let bestName = '';
+  let bestDist = Infinity;
+
+  for (const f of stationsGeoJSON.features) {
+    const d = haversine(lat, lng, f.properties.stop_lat, f.properties.stop_lon);
+    if (d < bestDist) {
+      bestDist = d;
+      bestName = f.properties.stop_name;
+    }
+  }
+
+  return { name: bestName, distanceMetres: bestDist };
+}
+
+function haversine(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6_371_000;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLng = ((lng2 - lng1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }

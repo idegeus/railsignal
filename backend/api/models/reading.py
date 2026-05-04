@@ -2,7 +2,7 @@ import uuid
 from datetime import datetime
 from typing import Literal
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field
 
 
 NetworkType = Literal["5G", "4G", "3G", "2G", "none", "unknown"]
@@ -23,7 +23,16 @@ class ReadingIn(BaseModel):
     app_version: str | None = None
 
 
+class JourneyIn(BaseModel):
+    id: uuid.UUID
+    started_at: datetime
+    ended_at: datetime | None = None
+    platform: Literal["android", "ios"] | None = None
+    app_version: str | None = None
+
+
 class ReadingsBatch(BaseModel):
+    journeys: list[JourneyIn] = []
     readings: list[ReadingIn] = Field(..., max_length=1000)
 
 

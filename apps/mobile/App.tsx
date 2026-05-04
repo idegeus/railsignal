@@ -20,6 +20,8 @@ import {
   startStationDetection,
   isStationDetectionRunning,
   requestNotificationPermission,
+  getNearestStation,
+  type NearestStation,
 } from './services/stationDetector';
 import { startJourney, endJourney, getReadingCount } from './store/db';
 import { exportCsv } from './services/exporter';
@@ -27,7 +29,9 @@ import { uploadPendingReadings } from './services/uploader';
 import { getNearestSection, type NearbySection } from './services/sectionDetector';
 import { hasSeenOnboarding, markOnboardingDone } from './store/settings';
 import Onboarding from './components/Onboarding';
+import SignalChart from './components/SignalChart';
 import { colors } from './theme';
+import { t } from './i18n';
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
@@ -38,6 +42,7 @@ export default function App() {
   const [count, setCount] = useState(0);
   const [busy, setBusy] = useState(false);
   const [currentSection, setCurrentSection] = useState<NearbySection | null>(null);
+  const [nearestStation, setNearestStation] = useState<NearestStation | null>(null);
 
   useEffect(() => {
     hasSeenOnboarding().then(setOnboardingDone);
@@ -52,14 +57,17 @@ export default function App() {
   useEffect(() => {
     if (!logging) {
       setCurrentSection(null);
+      setNearestStation(null);
       return;
     }
     const timer = setInterval(refreshCount, 5_000);
     const sectionTimer = setInterval(refreshSection, 15_000);
+    const uploadTimer = setInterval(() => uploadPendingReadings().catch(() => {}), 120_000);
     refreshSection();
     return () => {
       clearInterval(timer);
       clearInterval(sectionTimer);
+      clearInterval(uploadTimer);
     };
   }, [logging]);
 
@@ -82,7 +90,9 @@ export default function App() {
   async function refreshSection() {
     const pos = await Location.getLastKnownPositionAsync();
     if (!pos) return;
-    setCurrentSection(getNearestSection(pos.coords.latitude, pos.coords.longitude));
+    const { latitude, longitude } = pos.coords;
+    setCurrentSection(getNearestSection(latitude, longitude));
+    setNearestStation(getNearestStation(latitude, longitude));
   }
 
   async function handleToggle() {
@@ -135,7 +145,7 @@ export default function App() {
 
       <View style={styles.counter}>
         <Text style={styles.counterValue}>{count}</Text>
-        <Text style={styles.counterLabel}>readings stored</Text>
+        <Text style={styles.counterLabel}>{t.readingsStored}</Text>
       </View>
 
       {busy ? (
@@ -146,26 +156,30 @@ export default function App() {
           style={[styles.button, logging ? styles.buttonStop : styles.buttonStart]}
         >
           <Text style={styles.buttonText}>
-            {logging ? 'Stop logging' : 'Start logging'}
+            {logging ? t.stopLogging : t.startLogging}
           </Text>
         </Pressable>
       )}
 
       {logging && (
         <View style={styles.statusBlock}>
-          <Text style={styles.statusText}>● Recording</Text>
+          <Text style={styles.statusText}>{t.recording}</Text>
           {currentSection ? (
             <Text style={styles.sectionText}>
               {currentSection.fromName} → {currentSection.toName}
             </Text>
-          ) : (
-            <Text style={styles.sectionTextDim}>Not on a mapped section</Text>
-          )}
+          ) : nearestStation ? (
+            <Text style={styles.sectionTextDim}>
+              {t.nearStation} {nearestStation.name}
+            </Text>
+          ) : null}
         </View>
       )}
 
+      {logging && <SignalChart />}
+
       <Pressable onPress={handleExport} style={styles.exportButton}>
-        <Text style={styles.exportText}>Export CSV</Text>
+        <Text style={styles.exportText}>{t.exportCsv}</Text>
       </Pressable>
     </View>
   );

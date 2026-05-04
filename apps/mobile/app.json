@@ -56,7 +56,8 @@
           "sounds": []
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-localization"
     ]
   }
 }

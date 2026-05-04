@@ -61,6 +61,23 @@ export async function endJourney(id: string): Promise<void> {
   await db.runAsync('UPDATE journey SET ended_at = ? WHERE id = ?', Date.now(), id);
 }
 
+export type DbJourney = {
+  id: string;
+  started_at: number;
+  ended_at: number | null;
+  reading_count: number;
+};
+
+export async function getJourneysByIds(ids: string[]): Promise<DbJourney[]> {
+  if (ids.length === 0) return [];
+  const db = await getDb();
+  const placeholders = ids.map(() => '?').join(',');
+  return db.getAllAsync<DbJourney>(
+    `SELECT id, started_at, ended_at, reading_count FROM journey WHERE id IN (${placeholders})`,
+    ...ids,
+  );
+}
+
 // ── Readings ─────────────────────────────────────────────────────────────────
 
 export type ReadingInsert = {
@@ -132,5 +149,15 @@ export async function getReadingCount(): Promise<number> {
 export async function getAllReadings() {
   const db = await getDb();
   return db.getAllAsync<Record<string, unknown>>('SELECT * FROM signal_reading ORDER BY timestamp');
+}
+
+export type RecentReading = { timestamp: number; signal_dbm: number | null };
+
+export async function getRecentReadings(sinceMs: number): Promise<RecentReading[]> {
+  const db = await getDb();
+  return db.getAllAsync<RecentReading>(
+    'SELECT timestamp, signal_dbm FROM signal_reading WHERE timestamp > ? ORDER BY timestamp ASC',
+    sinceMs,
+  );
 }
 

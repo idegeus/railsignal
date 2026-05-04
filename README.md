@@ -318,7 +318,7 @@ RailSignal/
 ### Start the backend
 
 ```bash
-cp infra/.env.example infra/.env  # edit values as needed
+cp infra/.env.example backend/.env  # edit values as needed
 docker compose -f infra/docker-compose.yml up -d
 ```
 

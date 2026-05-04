@@ -48,14 +48,30 @@ class SignalReading(Base):
     platform: Mapped[str | None] = mapped_column(Text)
     app_version: Mapped[str | None] = mapped_column(Text)
 
+    # Server-side metadata for fraud detection
+    received_at: Mapped[datetime] = mapped_column(
+        TIMESTAMP(timezone=True), nullable=False, default=_now
+    )
+    uploader_ip: Mapped[str | None] = mapped_column(String(45))  # fits IPv4 and IPv6
+
     journey: Mapped["Journey | None"] = relationship(back_populates="readings")
+
+
+class EmailSignup(Base):
+    __tablename__ = "email_signup"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    email: Mapped[str] = mapped_column(Text, nullable=False, unique=True)
+    signed_up_at: Mapped[datetime] = mapped_column(
+        TIMESTAMP(timezone=True), nullable=False, default=_now
+    )
 
 
 class SegmentAggregate(Base):
     __tablename__ = "segment_aggregate"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
-    segment_geom: Mapped[object] = mapped_column(Geometry("LINESTRING", srid=4326))
+    segment_geom: Mapped[object] = mapped_column(Geometry("POINT", srid=4326))
     route_id: Mapped[str] = mapped_column(Text, nullable=False, index=True)
     operator: Mapped[str | None] = mapped_column(Text)
     avg_signal_dbm: Mapped[float | None] = mapped_column(Float)

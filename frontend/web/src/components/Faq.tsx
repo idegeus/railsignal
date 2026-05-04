@@ -56,6 +56,32 @@ const FAQS: Record<Lang, FaqItem[]> = {
       answer: <>Puedes compartir el proyecto con personas que sí viajan habitualmente, escribir a los operadores ferroviarios y al Ministerio pidiendo mejoras de cobertura, o ponerte en contacto con nosotros en <a href="mailto:viesambcobertura@ivodegeus.nl" className="text-transit-red hover:underline font-medium">viesambcobertura@ivodegeus.nl</a> para colaborar en el desarrollo. Los datos que recogemos sirven precisamente para dar peso a estos mensajes.</>,
     },
   ],
+  en: [
+    {
+      question: 'Will it cover other railway lines in Catalonia?',
+      answer: "We're starting with the R11 because it's our daily line. If enough people are interested in contributing to other lines — like the R1, R2, or others — we'd love to expand the project. Get in touch or download the app and start recording.",
+    },
+    {
+      question: 'What about high-speed lines or Madrid commuter rail?',
+      answer: "For now the project focuses on Catalonia, but the infrastructure is fully reusable for any rail corridor. If a group of commuters on another line wants to drive it, we can support them.",
+    },
+    {
+      question: 'How does the mobile app work?',
+      answer: 'Download the app, tap "Start journey" when you board the train and leave it running in the background. Every ten seconds it automatically records the mobile signal quality and your approximate location (rounded to a ~50 m grid to preserve privacy). When you arrive, tap "Stop" and the data uploads to the server.',
+    },
+    {
+      question: 'Is my personal data safe?',
+      answer: "The app never collects your name, phone number, or any personally identifying information. GPS coordinates are rounded to a 50-metre grid before being stored, so your exact position is never saved. All data published as open data is anonymous.",
+    },
+    {
+      question: 'Can I see my own recorded data?',
+      answer: "Right now data is published in aggregated form. In future versions of the app we plan to add a screen showing your journey history and the signal readings you've contributed.",
+    },
+    {
+      question: 'How can I help if I don\'t commute by train?',
+      answer: <>You can share the project with regular commuters, write to rail operators and the Ministry demanding coverage improvements, or contact us at <a href="mailto:viesambcobertura@ivodegeus.nl" className="text-transit-red hover:underline font-medium">viesambcobertura@ivodegeus.nl</a> to collaborate on development. The data we collect is precisely what gives weight to those messages.</>,
+    },
+  ],
 };
 
 function FaqRow({ item }: { item: FaqItem }) {
@@ -92,10 +118,10 @@ export default function Faq() {
       <div className="max-w-container mx-auto px-margin">
         <div className="max-w-2xl">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-transit-red mb-4">
-            {t('Preguntes freqüents', 'Preguntas frecuentes')}
+            {t('Preguntes freqüents', 'Preguntas frecuentes', 'Frequently asked questions')}
           </p>
           <h2 className="text-h2 font-bold text-on-surface tracking-tight mb-10">
-            {t('Tens preguntes?', '¿Tienes preguntas?')}
+            {t('Tens preguntes?', '¿Tienes preguntas?', 'Got questions?')}
           </h2>
           <div className="bg-white border border-surface-container px-6">
             {faqs.map((item) => (

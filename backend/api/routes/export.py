@@ -1,7 +1,7 @@
 import csv
 import io
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse, StreamingResponse
 from geoalchemy2.shape import to_shape
 from sqlalchemy import select
@@ -20,10 +20,7 @@ CSV_FIELDS = [
 
 
 @router.get("/geojson")
-async def export_geojson(
-    route_id: str = Query(None),
-    db: AsyncSession = Depends(get_db),
-):
+async def export_geojson(db: AsyncSession = Depends(get_db)):
     stmt = select(SignalReading).where(SignalReading.location.isnot(None))
     result = await db.execute(stmt)
     readings = result.scalars().all()

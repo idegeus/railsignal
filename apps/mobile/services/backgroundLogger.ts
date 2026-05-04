@@ -1,11 +1,18 @@
 import * as Location from 'expo-location';
+import * as Notifications from 'expo-notifications';
 import * as TaskManager from 'expo-task-manager';
 import { randomUUID } from 'expo-crypto';
 import Telephony from '../modules/telephony';
 import { insertReading } from '../store/db';
 import { snapToGrid } from './journeyDetector';
+import { saveActiveJourneyId, clearActiveJourneyId, getActiveJourneyId } from '../store/settings';
 
 export const LOCATION_TASK = 'railsignal-location';
+
+// Enforce a minimum gap between inserts even if Android fires the task faster
+// than timeInterval (common with accuracy: High + distanceInterval: 0).
+let lastInsertAt = 0;
+const MIN_INTERVAL_MS = 8_000;
 
 // Registered at module level — must be called before the app renders.
 TaskManager.defineTask(LOCATION_TASK, async ({ data, error }) => {
@@ -13,6 +20,27 @@ TaskManager.defineTask(LOCATION_TASK, async ({ data, error }) => {
     console.warn('[RailSignal] location task error', error);
     return;
   }
+
+  const now = Date.now();
+  const gap = now - lastInsertAt;
+  console.log(`[RailSignal] task fired — gap: ${gap} ms, journeyId: ${currentJourneyId}`);
+
+  // Restore journeyId from durable storage if this is the first fire after a
+  // JS restart (the native task survived but module-scope state reset to null).
+  if (currentJourneyId === null) {
+    try {
+      const saved = await getActiveJourneyId();
+      if (saved) currentJourneyId = saved;
+    } catch (e) {
+      console.warn('[RailSignal] failed to restore journeyId from storage', e);
+    }
+  }
+
+  if (gap < MIN_INTERVAL_MS) {
+    console.log(`[RailSignal] skipping — too soon (${gap} ms < ${MIN_INTERVAL_MS} ms)`);
+    return;
+  }
+  lastInsertAt = now;
 
   const { locations } = data as { locations: Location.LocationObject[] };
   const loc = locations[0];
@@ -42,10 +70,12 @@ TaskManager.defineTask(LOCATION_TASK, async ({ data, error }) => {
     androidVersion: signal.androidVersion,
     speedKmh,
   });
+
+  console.log(`[RailSignal] reading inserted — signal: ${signal.signalDbm} dBm, type: ${signal.networkType}`);
 });
 
-// Simple in-memory journey ID shared with the task via module scope.
-// Good enough for v0 — a foreground service restart resets it.
+// Shared with the task via module scope; persisted to disk so it survives JS
+// restarts where the native task keeps running.
 let currentJourneyId: string | null = null;
 
 export function setJourneyId(id: string | null) {
@@ -53,7 +83,21 @@ export function setJourneyId(id: string | null) {
 }
 
 export async function startLogging(journeyId: string): Promise<void> {
+  // Stop any existing task first — prevents double subscriptions after hot
+  // reloads where React state resets but the native task keeps running.
+  const alreadyRunning = await Location.hasStartedLocationUpdatesAsync(LOCATION_TASK);
+  if (alreadyRunning) {
+    console.log('[RailSignal] startLogging: task already running, stopping first');
+    await Location.stopLocationUpdatesAsync(LOCATION_TASK);
+  }
+
   currentJourneyId = journeyId;
+  lastInsertAt = 0;
+  await saveActiveJourneyId(journeyId);
+
+  // Android 13+ requires POST_NOTIFICATIONS at runtime for the foreground
+  // service notification to appear. Best-effort — logging still works if denied.
+  await Notifications.requestPermissionsAsync();
 
   const { status } = await Location.requestForegroundPermissionsAsync();
   if (status !== 'granted') throw new Error('Foreground location permission denied');
@@ -62,25 +106,27 @@ export async function startLogging(journeyId: string): Promise<void> {
   if (bgStatus !== 'granted') throw new Error('Background location permission denied');
 
   await Location.startLocationUpdatesAsync(LOCATION_TASK, {
-    accuracy: Location.Accuracy.High,
-    timeInterval: 10_000,         // poll every 10 s
-    distanceInterval: 0,          // distance doesn't matter — time drives it
+    accuracy: Location.Accuracy.Balanced, // High fires too often on Android
+    timeInterval: 10_000,
+    distanceInterval: 0,
     foregroundService: {
-      notificationTitle: 'RailSignal',
-      notificationBody: 'Logging signal quality…',
-
+      notificationTitle: 'Vies amb Cobertura',
+      notificationBody: 'Registrant la qualitat del senyal…'
     },
-    // Keep GPS active even when the device is still
     pausesUpdatesAutomatically: false,
   });
+
+  console.log('[RailSignal] startLogging: task started');
 }
 
 export async function stopLogging(): Promise<void> {
   currentJourneyId = null;
+  await clearActiveJourneyId();
   const isRunning = await Location.hasStartedLocationUpdatesAsync(LOCATION_TASK);
   if (isRunning) {
     await Location.stopLocationUpdatesAsync(LOCATION_TASK);
   }
+  console.log('[RailSignal] stopLogging: task stopped');
 }
 
 export async function isLogging(): Promise<boolean> {

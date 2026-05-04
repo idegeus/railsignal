@@ -1,10 +1,10 @@
 import { useLang } from '../i18n';
 
 const LINKS = [
-  { labelCa: 'GitHub',             labelEs: 'GitHub',              href: 'https://github.com' },
-  { labelCa: 'Open Data (CSV)',     labelEs: 'Open Data (CSV)',     href: '#dades' },
-  { labelCa: 'Privadesa',          labelEs: 'Privacidad',          href: '#' },
-  { labelCa: 'Premsa',             labelEs: 'Prensa',              href: '#' },
+  { labelCa: 'GitHub',             labelEs: 'GitHub',              labelEn: 'GitHub',              href: 'https://github.com/idegeus/railsignal' },
+  { labelCa: 'Open Data (CSV)',     labelEs: 'Open Data (CSV)',     labelEn: 'Open Data (CSV)',     href: '#dades' },
+  { labelCa: 'Privadesa',          labelEs: 'Privacidad',          labelEn: 'Privacy',             href: '#' },
+  { labelCa: 'Premsa',             labelEs: 'Prensa',              labelEn: 'Press',               href: '#' },
 ];
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
             Vies amb Cobertura
           </span>
           <p className="text-xs tracking-widest uppercase text-on-surface-variant text-center md:text-left">
-            © 2025 viesambcobertura.cat — {t('Projecte de codi obert', 'Proyecto de código abierto')}
+            © 2025 viesambcobertura.cat — {t('Projecte de codi obert', 'Proyecto de código abierto', 'Open-source project')}
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
               href={link.href}
               className="text-sm tracking-wider uppercase text-on-surface-variant hover:text-transit-red transition-colors font-bold"
             >
-              {t(link.labelCa, link.labelEs)}
+              {t(link.labelCa, link.labelEs, link.labelEn)}
             </a>
           ))}
         </div>
