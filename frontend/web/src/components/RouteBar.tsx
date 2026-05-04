@@ -1,17 +1,6 @@
 import { useLang } from '../i18n';
 import { useDownload } from './DownloadModal';
 
-const SEGMENTS = [
-  { label: 'Barcelona',   width: 18 },
-  { label: 'Granollers',  width: 10 },
-  { label: 'Sant Celoni', width: 9 },
-  { label: 'Maçanet',     width: 8 },
-  { label: 'Girona',      width: 14 },
-  { label: 'Flaçà',       width: 6 },
-  { label: 'Figueres',    width: 11 },
-  { label: 'Portbou',     width: 16 },
-  { label: 'Cerbère',     width: 8 },
-];
 
 export default function RouteBar() {
   const { t } = useLang();
