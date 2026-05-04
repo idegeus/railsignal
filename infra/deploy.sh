@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-COMPOSE="docker compose -f infra/docker-compose.prod.yml --env-file backend/.env"
+COMPOSE="docker compose -f infra/docker-compose.prod.yml --env-file infra/.env"
 
 cd "$(git rev-parse --show-toplevel)"
 
