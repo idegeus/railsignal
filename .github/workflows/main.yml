@@ -22,4 +22,5 @@ jobs:
           script: |
             cd /app/railsignal
             git pull origin main
-            sh ./infra/deploy.sh
+            chmod +x ./infra/deploy.sh
+            ./infra/deploy.sh
