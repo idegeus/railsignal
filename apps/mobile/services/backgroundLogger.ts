@@ -6,6 +6,7 @@ import Telephony from '../modules/telephony';
 import { insertReading } from '../store/db';
 import { snapToGrid } from './journeyDetector';
 import { saveActiveJourneyId, clearActiveJourneyId, getActiveJourneyId } from '../store/settings';
+import { t } from '../i18n';
 
 export const LOCATION_TASK = 'railsignal-location';
 
@@ -106,12 +107,12 @@ export async function startLogging(journeyId: string): Promise<void> {
   if (bgStatus !== 'granted') throw new Error('Background location permission denied');
 
   await Location.startLocationUpdatesAsync(LOCATION_TASK, {
-    accuracy: Location.Accuracy.Balanced, // High fires too often on Android
+    accuracy: Location.Accuracy.High, // Balanced batches at 30s and has no speed; debounce handles flooding
     timeInterval: 10_000,
     distanceInterval: 0,
     foregroundService: {
-      notificationTitle: 'Vies amb Cobertura',
-      notificationBody: 'Registrant la qualitat del senyal…'
+      notificationTitle: t.notificationTitle,
+      notificationBody: t.notificationBody,
     },
     pausesUpdatesAutomatically: false,
   });
