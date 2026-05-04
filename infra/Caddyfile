@@ -1,0 +1,20 @@
+# Set DOMAIN in infra/.env, e.g. DOMAIN=railsignal.app
+# Caddy obtains a Let's Encrypt certificate automatically on first startup.
+# DNS A record must point to this server before deploying.
+
+{$DOMAIN} {
+    # FastAPI backend
+    handle /api/* {
+        reverse_proxy api:8000
+    }
+
+    # Martin vector tile server
+    handle /tiles/* {
+        reverse_proxy martin:3000
+    }
+
+    # Web dashboard
+    handle {
+        reverse_proxy web:80
+    }
+}

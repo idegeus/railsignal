@@ -1,0 +1,1398 @@
+way_id,name,operator,gauge,electrified,maxspeed,usage,service,highspeed,line,ref
+5172926,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+6245707,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+6245871,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+6246102,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+6246108,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+8873194,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+18657125,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+19918614,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,90,branch,,,,254
+19979784,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+20169326,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+20169327,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+22650669,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+22650670,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+22725988,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+22725990,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+22726005,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4;R7
+22726018,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,90,main,,,,R4
+22726034,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+22726087,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+22726261,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+22726265,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,246
+22726271,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+22726273,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+22726303,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+22726316,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+22726317,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+22726344,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+22726348,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+22726374,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+22726392,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+22726393,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+22726394,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+22726395,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+22726452,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+22726492,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726493,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726504,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726505,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726509,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726511,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+22726551,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+22726554,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+23650087,Túnel de Meridiana,Adif,1668,contact_line,100,main,,,,R3;R4;R7
+27468192,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+27468196,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+28460847,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+28996544,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+28996545,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+29380209,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+29380238,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+29380242,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+30015850,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+33586981,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+33586982,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+35343367,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R4
+35555668,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+35555669,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+35883175,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+35883176,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+35883177,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+35883179,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+35883180,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+35899074,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+35899078,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+35899079,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+35899080,FFCC Cerbère - Barcelona,Adif,1668,contact_line,145,main,,,,R2Nord;R11
+35899081,FFCC Cerbère - Barcelona,Adif,1668,contact_line,145,main,,,,R2Nord;R11
+38918633,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+38962085,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+38962088,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4;R7
+38962089,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+38973611,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+38973612,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,100,main,,,,R8
+38975135,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+38975136,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+39094846,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+40511737,FFCC Ramal Glòries,Adif,1668,contact_line,60,branch,,,,R2Sud;R13;R14;R15;R16
+40511738,Túnel de Meridiana i Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+40511740,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+40750220,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+40750221,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+40754920,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+40754921,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+41131331,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+41131332,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+41132777,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+41133480,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+41235757,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+41284763,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+41284764,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,105,main,,,,R1;RG1
+43114228,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+43114229,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+43131293,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+43131294,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+44216927,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+44216928,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+50312546,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+50312558,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+50316933,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+50316934,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+51264664,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+51300493,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+51300495,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+51300502,FFCC Cerbère - Barcelona,Adif,1668,contact_line,60,main,,,,270
+51300505,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+51438167,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+51438171,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+52872560,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+53030496,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+57831245,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+57831246,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+61293843,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+61293844,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+62041513,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,105,main,,,,270
+62041523,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,85,main,,,,270
+62041526,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+62041528,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+62041529,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041532,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+62041544,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041545,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+62041546,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041549,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041550,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041554,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+62041559,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+62041562,FFCC Cerbère - Barcelona,Adif,1668,contact_line,80,main,,,,270
+62045042,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+62045043,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+62045044,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+62045047,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+62045051,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+62045052,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+62045054,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,130,main,,,,270
+62045059,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+62045061,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,130,main,,,,270
+62045063,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,130,main,,,,270
+62045064,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+62045067,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,130,main,,,,270
+62045075,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+62045076,FFCC Cerbère - Barcelona,Adif,1668,contact_line,60,main,,,,270
+62083009,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+62097428,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,130,main,,,,270
+69314383,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+72543320,Pont de Colera,Adif,1668,contact_line,130,main,,,,270
+72543345,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+74405703,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+74405718,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+75446625,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+75446627,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+75672867,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+75672874,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+82172531,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+82172532,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+83135821,,Adif,1668,contact_line,30,branch,,,,
+83135822,,Adif,1668,,50,branch,,,,
+83201336,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+83201337,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+84515035,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+90571428,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+91789990,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+91789997,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+91790002,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+91790004,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,55,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+91790071,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+91790078,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+91790082,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+91790099,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+95461972,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+96549114,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+96549115,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+96807518,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+96807543,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+96883831,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+96883848,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+96883861,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+96883869,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+96883875,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+96883885,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+97696670,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+97696672,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+98232180,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+98232188,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+98232206,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+98232232,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+99589681,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+100553646,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+100553667,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+100649344,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+102017685,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+102017698,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,135,main,,,,270
+105225584,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+105225594,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+105225604,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+105225610,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+106939352,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+106939353,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+107320391,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+107320405,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+107320413,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+108777837,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+108777847,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+109597370,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+109597373,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+109731171,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+109731180,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+115610382,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,50,main,,,,R1;R3;R4;RG1
+115610386,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+120068568,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+120953221,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+120953223,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+120953306,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+120953307,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+123265313,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+123265314,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+123274071,FFCC Ramal Glòries,Adif,1668,contact_line,40,branch,,,,R2Sud;R13;R14;R15;R16
+123274072,FFCC Ramal Glòries,Adif,1668,contact_line,40,branch,,,,R2Sud;R13;R14;R15;R16
+128115717,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+128329362,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+128329363,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+136441004,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+140897674,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+140897685,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+140897689,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+141258025,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+141258027,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+142321089,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+142432380,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+142432382,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+151872551,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+151872553,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+151872556,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+151872561,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+152548428,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+152548436,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+160931372,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+160931373,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+162592107,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+162592111,FFCC Cerbère - Barcelona,Adif,1668,contact_line,100,main,,,,270
+164545100,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+164951262,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+168520803,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+169011771,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+169011773,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+169011774,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+169011775,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+169335557,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+169335558,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+169792560,,Adif,1668,contact_line,50,branch,,,,
+169792561,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+169793795,,Adif,1668,,50,branch,,,,
+169815618,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+169815619,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+169865769,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,
+172438305,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+172438324,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+176380144,Línia Barcelona-Manresa-Lleida,Adif,1668,contact_line,70,main,,,,R3;R4;R7
+176510573,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+176510574,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+176515453,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+176515459,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+176515460,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+176515462,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+177968646,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+177968647,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+178263637,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+178263639,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+178272765,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+178272766,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+182049938,FFCC Barcelona - Lleida per Manresa,Adif,1668,contact_line,95,main,,,,R3;R4;R7
+182184041,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+182383429,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+182383430,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+184629509,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+184629510,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,100,main,,,,270
+190557460,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+190557461,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+191144252,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+193327737,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193327738,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193327754,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193327755,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193480155,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+193480160,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193480177,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+193480179,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193605564,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193605565,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193605574,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193605575,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+193908263,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+193908264,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+193908287,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+193908290,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+194064989,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+194064990,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+200155533,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+200155534,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+200155538,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+200161775,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+200256025,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+200256026,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,120,main,,,,R8
+200256027,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,120,main,,,,R8
+200256028,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+200256029,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,120,main,,,,R8
+200258491,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258493,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258494,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258495,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258496,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258497,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+200258498,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+200258499,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+200258500,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+201419187,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+201419188,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+201419191,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+201419192,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+202187612,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+202187613,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+202321079,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+202321080,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+202444299,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+202444300,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+202444301,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+208554371,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+210265852,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+210265853,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+216952582,,Adif,1668,contact_line,40,branch,,,,
+217492848,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+218613103,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,50,main,,,,R1;RG1
+218613104,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+218613105,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+218613106,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+218972262,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+218972265,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+218972270,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+220144949,FFCC Ramal Glòries,Adif,1668,contact_line,40,branch,,,,R2Sud;R13;R14;R15;R16
+220144950,FFCC Ramal Glòries,Adif,1668,contact_line,40,branch,,,,R2Sud;R13;R14;R15;R16
+223534930,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+223534931,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+223537972,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+223537974,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+223537975,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+223538326,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+223538327,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+223538328,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+223538329,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+223568933,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,RG1
+223568938,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,RG1
+223568939,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,RG1
+223568940,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223568945,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+223568946,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+223965430,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+223965432,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+223965437,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+223976870,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223976871,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+223976872,FFCC Cerbère - Barcelona,,1668,contact_line,140,main,,,,R2Nord;R11
+223978802,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+223978805,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+223992127,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223992131,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223992134,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223992136,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223992138,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223992142,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223995212,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223995213,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223995223,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+223995229,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018804,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018805,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018807,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018809,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+224018810,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018813,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018819,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018821,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224018822,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+224023292,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+224023293,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224023300,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+224023302,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224025051,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224025052,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224025053,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224025055,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224025056,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+224027326,,Adif,1435;1668,contact_line,,branch,,,,
+224027329,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224027330,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224027331,,Adif,1435;1668,,,branch,,,,
+224027335,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224027338,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224027345,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+224027346,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+224027817,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224027819,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224027822,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101221,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224101226,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+224101384,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101388,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101389,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101391,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101394,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101397,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101398,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+224101401,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+224132852,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+224132854,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+224132856,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224132857,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224132858,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224132859,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+224132861,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224132863,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224132864,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+224133726,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133727,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133729,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133730,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133731,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224133732,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133733,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+224133734,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224133735,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224135583,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224135584,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224135587,FFCC Cerbère - Barcelona,Adif,1668,contact_line,100,main,,,,270
+224135588,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+224135591,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+224135593,FFCC Cerbère - Barcelona,Adif,1668,contact_line,100,main,,,,270
+224136528,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224136532,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224136534,FFCC Cerbère - Barcelona,Adif,1668,contact_line,100,main,,,,270
+224136537,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+224136538,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+224136539,Pont de Colera,Adif,1668,contact_line,130,main,,,,270
+224214601,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+224214603,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+224214604,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+239914340,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,677000
+240237916,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+240237917,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+242123164,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+243703484,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,50,main,,,,R1;R3;R4;RG1
+245888888,Bifurcació Clot,Adif,1668,contact_line,40,branch,,,,
+246541325,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+256142994,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+264520315,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+264520316,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+264520317,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+264520318,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+267003770,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267003771,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267003772,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267003773,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267004040,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+267004044,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,65,main,,,,R1;R3;R4;RG1
+267004205,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267004206,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+267004207,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+267004208,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+276410995,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,RG1
+276411000,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+276411002,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+276411003,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+276411005,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,R1;RG1
+276960808,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+281501554,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+281501555,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+285451678,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+285451680,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R4
+285451681,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+285451682,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451683,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4;R7
+285451684,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+285451685,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+285451686,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451687,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451688,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451689,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+285451690,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+285451692,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451693,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451695,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451697,Línia Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451699,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+285451703,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+285451704,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+285451705,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,90,main,,,,R4
+285451707,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+293586879,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,,branch,,,,254
+293586915,,Adif,1668,contact_line,50,branch,,,,
+293586922,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,,branch,,,,254
+293586923,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,,branch,,,,254
+293586950,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,140,branch,,,,254
+293586951,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,90,branch,,,,254
+293586952,Línia El Prat-Aeroport,Adif,1668,contact_line,110,branch,,,,R2N
+293586953,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,140,branch,,,,254
+293586954,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+293586957,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+293586958,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+293888947,Bifurcació Clot,Adif,1668,contact_line,30,branch,,,,
+293888949,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888950,,Adif,1668,contact_line,40,branch,,,,
+293888953,,Adif,1668,contact_line,40,branch,,,,
+293888956,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888958,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888959,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888960,,Adif,1668,contact_line,40,branch,,,,
+293888961,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888962,Bifurcació Clot,Adif,1668,contact_line,40,branch,,,,
+293888964,,Adif,1668,contact_line,40,branch,,,,
+293888965,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+293888966,,Adif,1668,contact_line,40,branch,,,,
+293888969,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+294049036,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+294049037,,Adif,1668,contact_line,30,branch,,,,
+294049038,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+294049040,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+294049042,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+294049044,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+294049046,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+294049049,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+294049055,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,65,main,,,,R1;R3;R4;RG1
+294049056,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+294049057,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+294049058,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+294049059,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+294246452,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+294246461,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+294246500,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+294246501,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+294482898,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+294482901,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482903,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+294482909,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+294482912,,Adif,1435;1668,contact_line,,branch,,,,
+294482913,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482915,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482918,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482920,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482921,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482924,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+294482926,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482930,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482931,,Adif,1435;1668,contact_line,,branch,,,,
+294482933,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,120,main,,,,R8
+294482934,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+294482935,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+294482937,,Adif,1435;1668,contact_line,,branch,,,,
+294482938,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+294482939,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+294482940,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+294482941,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+294482943,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+294482952,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,90,main,,,,246
+294482961,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,90,main,,,,246
+295008886,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+295008897,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+295008903,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+295008919,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+295008923,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+295008924,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+295008933,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+295008934,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+295008941,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+295008953,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+295008982,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+295009018,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+295009022,Línia Barcelona-Manresa-Lleida,Adif,1668,contact_line,70,main,,,,R3;R4;R7
+313352932,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+313352933,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+313352934,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+313352935,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+333986492,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+349134319,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+349432702,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+349432703,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+349432704,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+352119432,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,70,main,,,,R1;RG1
+352119435,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+352650401,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+354257531,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+357797618,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+360662143,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+360662145,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+360728192,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+360813358,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+371360958,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+375054686,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+377323720,Túnel d'Aragó,Adif,1668,contact_line,55,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+377324476,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,50,main,,,,R1;R3;R4;RG1
+385339295,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+385339296,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+385339300,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,RG1
+385339304,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+385339306,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+385447080,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+385447081,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447083,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,70,main,,,,R1
+385447084,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,R1;RG1
+385447085,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447086,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447087,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447088,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447089,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385447090,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+385465847,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385465850,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385465852,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385465853,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385465855,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385465856,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385483971,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385483973,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385483974,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385483978,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;RG1
+385483979,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385483980,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385483983,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+385483986,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;RG1
+385483996,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385496931,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R3;R4;RG1
+385496933,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+385496934,Túnel de Meridiana i Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+385524514,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+385524516,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+385524517,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+385524518,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R4
+385524519,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4;R7
+385539466,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+385539467,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539468,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539469,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539470,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+385539471,FFCC Ramal Glòries,Adif,1668,contact_line,60,branch,,,,R2Sud;R13;R14;R15;R16
+385539472,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385539473,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385539474,FFCC Ramal Glòries,Adif,1668,contact_line,60,branch,,,,R2Sud;R13;R14;R15;R16
+385539476,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385539478,Línia FFCC Túnel Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539479,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539480,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539481,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+385539487,Túnel de Plaça Catalunya,Adif,1668,contact_line,85,main,,,,R1;RG1
+385539489,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+385551533,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551534,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,95,main,,,,R1;RG1
+385551535,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551536,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551537,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,RG1
+385551538,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+385551539,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551540,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551541,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,R1;RG1
+385551542,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551543,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+385551544,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,140,main,,,,R1;RG1
+385551545,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+385574460,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+385574463,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+385574464,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+385574465,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+385635180,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+385635183,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+385635185,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+385635186,Túnel d'Aragó,Adif,1668,contact_line,55,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+385635189,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+385635192,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+385635194,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+385635202,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,55,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+385642617,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+385642618,Túnel d'Aragó,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+385642619,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+385642620,FFCC Barcelona - Lleida per Manresa,Adif,1668,contact_line,100,main,,,,R3;R4;R7
+386829186,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+386829190,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+386829198,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+386829233,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+386869994,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+386869995,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+386869996,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+386870000,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+389990384,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+390134896,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+390134898,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390134899,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390134900,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390134906,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148910,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148915,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148917,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+390148918,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+390148919,R2 Nord,,1668,contact_line,160,main,,,,R2 Nord
+390148923,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148925,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148927,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148929,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148931,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148935,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148936,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148938,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+390148940,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148942,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148945,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148952,FFCC Cerbère - Barcelona,Adif,1668,contact_line,145,main,,,,R2Nord;R11
+390148957,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390148960,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+390148965,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390148967,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148969,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148970,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+390148972,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+390154969,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390154970,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+390154971,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+390154972,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+390154974,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+390154975,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390154976,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390154977,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+390154978,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390163960,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390163961,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390217026,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390217029,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+390217030,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,90,branch,,,,254
+390217031,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,140,branch,,,,254
+390217033,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390217034,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+390217035,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390217039,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+390217040,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+390217042,FFCC Cerbère - Barcelona,Adif,1668,contact_line,145,main,,,,R2Nord;R11
+390229762,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+390336834,FFCC Barcelona - Lleida per Manresa,Adif,1668,contact_line,95,main,,,,R3;R4;R7
+390447088,Túnel de Meridiana,Adif,1668,contact_line,75,main,,,,R3;R4
+390652191,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+390652200,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+390654833,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+390654834,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R4
+391015065,,Adif,1435;1668,contact_line,,branch,,,,
+391015068,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391674475,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391674477,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391674478,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,105,main,,,,R8
+391674479,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,105,main,,,,R8
+391674481,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,120,main,,,,R8
+391674482,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391674483,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391674484,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+391801123,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391801125,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801128,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801129,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391801130,FFCC Cerbère - Barcelona,Adif,1668,contact_line,100,main,,,,270
+391801131,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801132,FFCC Cerbère - Barcelona,Adif,1668,contact_line,85,main,,,,270
+391801133,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+391801135,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801136,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801138,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801139,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391801141,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801142,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801143,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+391801144,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801145,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,270
+391801147,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801148,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391801149,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801150,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801152,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801153,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+391801154,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391801155,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391801156,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391801159,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801160,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391801161,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391801162,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391804905,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391804906,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391804907,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391804909,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,130,main,,,,260
+391804912,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391804915,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391804918,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819003,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819004,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819005,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+391819006,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819008,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819009,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+391819010,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819012,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819018,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819020,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819023,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391819026,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819029,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819039,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391819043,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+391819044,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,270;274
+391819051,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391819061,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819064,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,130,main,,,,260
+391819068,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819071,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+391819077,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391819080,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819084,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819087,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819090,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819091,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819093,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,270;274
+391819097,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+391819105,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,,main,,,,260
+391819106,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+391819107,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+391819108,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+391819109,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+391822852,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391822853,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+391822856,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+391822858,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+391822859,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+391822860,,,1668,contact_line,,main,,,,
+396514770,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+396514771,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+440733985,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+440733986,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,140,main,,,,R1;RG1
+440733989,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+440733990,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+444306953,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+444306954,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+481374954,Bifurcació Glòries,Adif,1668,contact_line,85,main,,,,R1;RG1
+481374955,Bifurcació Glòries,Adif,1668,contact_line,85,main,,,,R1;RG1
+481376217,Bifurcació Clot,Adif,1668,contact_line,30,branch,,,,
+490345005,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+490345006,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+490345007,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+490345008,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+490345015,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+490345017,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+491952547,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+521010986,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+521010988,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+550342834,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+550343005,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+552832027,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+552832028,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+552883279,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+552883281,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+552883282,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+552937551,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+552937552,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+552937553,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,R1;RG1
+574198584,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+574198585,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+590226358,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+590226362,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+590226368,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+590226375,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+598646367,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+598646368,FFCC Castellbisbal - Mollet,Adif,1435,contact_line,,main,,,,
+664169644,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+664169648,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+701429181,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+701429182,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+701429183,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+701429184,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+722794908,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+722794909,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+722794910,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+722794911,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+723527563,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,270;274
+723527566,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,677000
+725210560,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+725210561,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+725210562,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+725210563,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+754809737,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+754810028,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+754813645,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+754815075,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+754815077,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+754815079,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+754817400,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+754817401,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+754820723,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+754820869,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,75,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+754824275,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+771764390,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+771764391,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+771764392,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+771764393,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4
+771764394,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4;R7
+771764395,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,130,main,,,,R1;R4;R7
+771764397,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4;R7
+771764399,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R4
+771764401,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+771764402,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R4
+771764404,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+771764405,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+771764406,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+771764407,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+771764408,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,110,main,,,,R4
+771993440,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,65,main,,,,R1;R3;R4;RG1
+771993441,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R3;R4;RG1
+771993442,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R4
+771993443,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,55,main,,,,R1;R3;R4;RG1
+772245696,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245697,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245698,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245699,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245708,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245709,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245713,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245714,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245717,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772245718,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+772266502,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,45,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+772266506,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+772266516,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,45,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+772558499,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+772558506,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,45,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+772794869,Túnel d'Aragó,Adif,1668,contact_line,55,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+772794870,Túnel d'Aragó,Adif,1668,contact_line,55,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+772794871,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+772794872,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+791167070,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167075,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167076,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167078,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+791167079,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+791167080,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+791167081,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167082,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167083,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791167084,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+791560476,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+791560477,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+791560481,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+791560482,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,
+791560483,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,
+791560487,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+791560488,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+791560489,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+791560490,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1
+791942239,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+791942240,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+791942242,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+791942243,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+791942244,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+791942245,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,RG1
+791942246,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,RG1
+791942248,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,,main,,,,R1;RG1
+791946020,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+791946021,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+791946022,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+791946023,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+791946024,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+800131790,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131791,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131794,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+800131795,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+800131802,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+800131805,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+800131806,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+800131807,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+800131809,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131810,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131811,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131812,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+800131814,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+800131815,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+800131818,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+800131819,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+801368941,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+801368943,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+801709882,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+801709883,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+801709884,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+801709885,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+802287380,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,130,main,,,,260
+802287381,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802287382,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,130,main,,,,260
+802287383,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802287384,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802287385,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802287386,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802287387,FFCC Figueres-Vilafant - Vilamalla,Adif,1435,contact_line,130,main,,,,260
+802302787,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302788,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302789,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302790,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302793,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302794,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302795,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302796,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302801,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302802,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302803,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302804,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302807,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+802302808,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+802302809,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+802302810,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+802302812,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302813,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+802302814,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+802302815,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+803111061,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+803111063,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+803111064,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+803111066,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+810224248,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+810224249,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R2S;R11;R13;R14;R15;R16;R17
+810798605,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+810798606,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+829719541,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+829719542,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+829719543,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+838264224,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+863268690,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+863268691,FFCC Cerbère - Barcelona,Adif,1668,contact_line,80,main,,,,270
+863268692,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+863268693,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+863268694,FFCC Cerbère - Barcelona,Adif,1668,contact_line,80,main,,,,270
+863268695,FFCC Cerbère - Barcelona,Adif,1668,contact_line,80,main,,,,270
+882872036,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+882897746,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;RG1
+882897747,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;RG1
+890976073,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+890976074,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+890976075,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+890976076,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+901551592,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+901551593,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+901551594,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+901551595,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,120,main,,,,R1;R4
+909318076,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+909318077,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909318078,,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+909318079,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909319290,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909319291,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909319805,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909319806,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+909320993,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909320994,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909320995,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909320996,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909320997,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909320998,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+909322776,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2Nord;R11
+909322777,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2Nord;R11
+961806759,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,130,main,,,,R1;RG1
+970042548,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+970042549,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+970042550,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+970042551,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+974066530,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1;RG1
+974066531,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+980155788,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+981002807,Línia El Prat-Aeroport,Adif,1668,contact_line,140,branch,,,,R2N
+981002808,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,140,branch,,,,254
+993008107,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+993008108,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+1028905582,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+1028905583,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+1028905584,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+1028905585,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,R2;R2Sud;R13;R14;R15;R16
+1032582228,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+1032582230,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,
+1033609249,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+1035372751,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,45,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+1035372752,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+1046951956,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+1046951957,FFCC Castellbisbal - Mollet,Adif,1668,contact_line,105,main,,,,R8
+1047395961,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,100,main,,,,R1;R4
+1047395962,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+1086289298,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1086289299,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1086289300,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1086289301,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1089337032,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+1089568490,Línia Barcelona-Manresa-Lleida,Adif,1668,contact_line,85,main,,,,R3;R4;R7
+1089568491,Línia Barcelona-Manresa-Lleida,Adif,1668,contact_line,85,main,,,,R3;R4;R7
+1089568492,FFCC Barcelona - Lleida per Manresa,Adif,1668,contact_line,70,main,,,,R3;R4;R7
+1089568493,FFCC Barcelona - Lleida per Manresa,Adif,1668,contact_line,70,main,,,,R3;R4;R7
+1096690284,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1096690285,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1096690286,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1096690287,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1107824576,Túnel d'Aragó,Adif,1668,contact_line,,main,,,,R2;R2N;R11
+1107824578,Túnel d'Aragó,Adif,1668,contact_line,,main,,,,R2;R2N;R11
+1107829599,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+1107829601,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+1107829607,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+1107843286,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1109610853,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,677000
+1121083427,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1121083428,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1121083429,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1123030125,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,45,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+1123030126,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+1123030127,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,,main,,,,R1;R3;R4;RG1
+1125709365,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+1125709367,Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2N;R11
+1125805668,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+1125805669,FFCC Barcelona - Túnel d'Aragó,Adif,1668,contact_line,60,main,,,,R2;R2Nord;R2Sud;R11;R13;R14;R15;R16
+1126030022,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,100,main,,,,R2;R2N;R11
+1126030023,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1126030025,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,100,main,,,,R2;R2N;R11
+1126030026,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,140,main,,,,R2;R2N;R11
+1126030027,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,140,main,,,,R2;R2N;R11
+1126030028,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,135,main,,,,R2;R2N;R11
+1126030029,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,135,main,,,,R2;R2N;R11
+1126030030,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2;R2Nord;R11
+1126030031,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R11
+1126030032,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2;R2Nord;R11
+1126030033,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126030034,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223144,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223145,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223146,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223147,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223148,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223149,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223150,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+1126223151,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2;R2Nord;R8;R11
+1126223410,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223411,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2;R2Nord;R8;R11
+1126223412,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2;R2Nord;R8;R11
+1126223413,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2;R2Nord;R8;R11
+1126529850,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1126529851,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529852,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529853,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529854,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1126529855,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1126529856,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529857,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529858,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1126529859,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1126529860,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+1126529861,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+1126529862,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529863,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529864,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529865,,Adif,1668,contact_line,140,main,,,,R2Nord;R11
+1126529866,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1126529867,,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1126529868,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2Nord;R11
+1126529869,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,R2Nord;R11
+1126529870,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+1126529871,FFCC Cerbère - Barcelona,Adif,1668,contact_line,160,main,,,,R2Nord;R11
+1127703243,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1127703244,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1127824070,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+1127824071,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,R2Nord;R11
+1127993124,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1130718341,FFCC Cerbère - Barcelona,Adif,1668,contact_line,155,main,,,,R2Nord;R11
+1130718342,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+1130718343,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+1130718344,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+1130718345,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+1131819287,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1131819288,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1131819289,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,270
+1131819290,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,270
+1131819292,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1131819293,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+1132278175,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132278176,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132278177,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1132278178,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1132278179,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1132278180,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1132278181,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1132278182,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132278183,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,60,main,,,,270
+1132278184,FFCC Cerbère - Barcelona,Adif,1668,contact_line,60,main,,,,270
+1132278185,FFCC Cerbère - Barcelona,Adif,1668,contact_line,80,main,,,,270
+1132278186,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,80,main,,,,270
+1132278187,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+1132278188,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+1132278189,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,95,main,,,,270
+1132278190,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+1132278191,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+1132278192,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,85,main,,,,270
+1132278193,FFCC Cerbère - Barcelona,Adif,1668,contact_line,85,main,,,,270
+1132278194,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+1132278195,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+1132971412,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+1132971413,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+1132971414,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,120,main,,,,270
+1132971415,FFCC Cerbère - Barcelona,Adif,1668,contact_line,135,main,,,,270
+1132971416,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+1132971417,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132971418,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+1132971419,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,110,main,,,,270
+1132971420,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+1132971421,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132971422,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1132971423,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+1132971424,FFCC Cerbère - Barcelona,Adif,1668,contact_line,105,main,,,,270
+1132971425,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+1132971426,FFCC Cerbère - Barcelona,Adif,1668,contact_line,90,main,,,,270
+1133508013,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+1133508014,FFCC Cerbère - Barcelona,Adif,1668,contact_line,130,main,,,,270
+1133508015,FFCC Cerbère - Barcelona,Adif,1668,contact_line,115,main,,,,270
+1133508016,FFCC Cerbère - Barcelona,Adif,1668,contact_line,115,main,,,,270
+1133508017,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+1133508018,FFCC Cerbère - Barcelona,Adif,1668,contact_line,110,main,,,,270
+1133508019,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1133508020,FFCC Cerbère - Barcelona,Adif,1668,contact_line,125,main,,,,270
+1133508021,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+1133508022,FFCC Cerbère - Barcelona,Adif,1668,contact_line,70,main,,,,270
+1133508023,FFCC Cerbère - Barcelona,Adif,1668,contact_line,85,main,,,,270
+1133508024,FFCC Cerbère - Barcelona,Adif,1668,contact_line,85,main,,,,270
+1133508025,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+1133508026,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+1133508027,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+1133508028,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270
+1134090657,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,90,main,,,,246
+1134090660,,Adif,1668,contact_line,30,branch,,,,
+1134144720,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,50,main,,,,R1;R3;R4;RG1
+1134144721,FFCC via Pl. Catalunya i Túnel Meridiana,Adif,1668,contact_line,50,main,,,,R1;R3;R4;RG1
+1134144722,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+1134144723,Túnel de Plaça Catalunya,Adif,1668,contact_line,60,main,,,,R1;R3;R4;RG1
+1134144724,Bifurcació Vilanova,Adif,1668,contact_line,60,main,,,,R1;RG1
+1134144725,Bifurcació Vilanova,Adif,1668,contact_line,60,main,,,,R1;RG1
+1134144726,Túnel de Plaça Catalunya,Adif,1668,contact_line,80,main,,,,R1;RG1
+1134144727,Túnel de Plaça Catalunya,Adif,1668,contact_line,80,main,,,,R1;RG1
+1134231533,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,,main,,,,260
+1134312338,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1134312339,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1134312340,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+1134312341,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,75,main,,,,R1;RG1
+1135225705,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+1135225706,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,100,main,,,,R1;RG1
+1135502373,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,50,main,,,,R1;RG1
+1135502374,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,50,main,,,,R1;RG1
+1135502375,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+1135502376,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,85,main,,,,R1;RG1
+1135502377,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,90,main,,,,R1
+1135502378,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135502379,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135502380,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135502381,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135736868,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1135736870,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1135736871,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1135736872,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,125,main,,,,R1;RG1
+1135736873,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,125,main,,,,R1;RG1
+1135736874,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135736875,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135736876,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135736877,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,120,main,,,,R1;RG1
+1135736878,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,135,main,,,,R1;RG1
+1135736879,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,135,main,,,,R1;RG1
+1135736880,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+1135736881,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,110,main,,,,R1;RG1
+1135926913,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1135926914,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+1136135004,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,270
+1136135005,FFCC Cerbère - Barcelona,Adif,1668,contact_line,95,main,,,,270;274
+1136135009,FFCC Figueres-Vilafant - Vilamalla,Adif,1435;1668,contact_line,130,main,,,,260
+1136135010,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+1136135011,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1136135015,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1136135016,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1136553806,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+1136553807,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+1136553810,Túnel de Meridiana,Adif,1668,contact_line,100,main,,,,R3;R4;R7
+1136553811,Túnel de Meridiana,Adif,1668,contact_line,100,main,,,,R3;R4;R7
+1136553812,Túnel de Meridiana,Adif,1668,contact_line,85,main,,,,R3;R4;R7
+1136553813,Túnel de Meridiana,Adif,1668,contact_line,85,main,,,,R3;R4;R7
+1173826609,FFCC Cerbère - Barcelona,Adif,1668,contact_line,40,main,,,,677000
+1189357834,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,105,main,,,,R8
+1211351002,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,50,main,,,,R1;RG1
+1292144491,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1292144492,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1292144493,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1292144494,FFCC Cerbère - Barcelona,Adif,1668,contact_line,150,main,,,,R2Nord;R11
+1317636845,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,160,branch,,,,254
+1317636852,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,
+1317941243,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+1317941244,Ramal de les Aigües,Adif,1668,contact_line,60,branch,,,,
+1317941245,Ramal de les Aigües,Adif,1668,contact_line,,branch,,,,
+1317941246,Ramal de les Aigües,Adif,1668,contact_line,,branch,,,,
+1323211367,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,60,main,,,,R1;RG1
+1323211368,,Adif,1668,contact_line,60,main,,,,R1;RG1
+1341653149,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+1345112961,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1345112962,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1345112963,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1345112964,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1347067222,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+1347067223,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1347067224,FFCC Cerbère - Barcelona,Adif,1668,contact_line,140,main,,,,270
+1347067225,FFCC Cerbère - Barcelona,Adif,1435;1668,contact_line,140,main,,,,270
+1383665711,FFCC Barcelona-Vilafranca-Sant Vicenç de Calders,Adif,1668,contact_line,70,main,,,,R1;R3;R4;RG1
+1386571043,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1386571044,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,140,main,,,,R1;RG1
+1393812555,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,90,main,,,,R2;R2Nord;R2Sud;R13;R14;R15;R16
+1393812558,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,
+1393812561,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,160,branch,,,,254
+1393812562,Línia FFCC Ramal Aeroport R2Nord,Adif,1668,contact_line,160,branch,,,,254
+1393812563,FFCC Barcelona - Tarragona via Vilanova i la Geltrú,Adif,1668,contact_line,160,main,,,,
+1416799357,FFCC Castellbisbal - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1462961356,Túnel de Meridiana,Adif,1668,contact_line,60,main,,,,R3;R4
+1478630827,FFCC Barcelona-Maçanet via Mataró,Adif,1668,contact_line,80,main,,,,R1;RG1
+1486727677,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+1486727679,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733272,Bifurcació Glòries,Adif,1668,contact_line,85,main,,,,R1;RG1
+1486733273,Bifurcació Glòries,Adif,1668,contact_line,85,main,,,,R1;RG1
+1486733274,Ramal de Glòries,Adif,1668,contact_line,40,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733275,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733276,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733277,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733278,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733279,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733280,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733281,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1486733282,Ramal de Glòries,Adif,1668,contact_line,60,branch,,,,R2S;R13;R14;R15;R16;R17
+1487228201,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487228203,Túnel d'Aragó,Adif,1668,contact_line,,main,,,,R2;R2N;R11
+1487228207,Túnel d'Aragó,Adif,1668,contact_line,,main,,,,R2;R2N;R11
+1487228208,Túnel d'Aragó,Adif,1668,contact_line,,main,,,,R2;R2N;R11
+1487324463,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1487325017,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1487325018,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1487325019,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1487589384,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487589385,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487589390,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487596209,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596210,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596215,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596216,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596221,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596222,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596223,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2Nord;R11
+1487596224,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,50,main,,,,R2;R2N;R11
+1487596229,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487596230,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487596231,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1487596232,Línia Barcelona-Girona-Portbou,Adif,1668,contact_line,70,main,,,,R2;R2N;R11
+1488869651,Ramal de les Aigües,Adif,1668,contact_line,,branch,,,,
+1488869652,Ramal de les Aigües,Adif,1668,contact_line,,branch,,,,
+1489497807,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1489497808,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1489497809,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1489497810,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,60,main,,,,R1;RG1
+1490833323,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833324,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833325,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833326,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833327,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+1490833328,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833329,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833330,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833331,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833332,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833333,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833334,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833339,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833340,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833341,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833342,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833343,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833344,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833345,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1490833346,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1491054826,Túnel de Meridiana,Adif,1668,contact_line,85,main,,,,R3;R4;R7
+1491628850,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+1491628851,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+1491628852,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+1491628853,Línia Barcelona-Mataró-Maçanet,Adif,1668,contact_line,75,main,,,,R1;RG1
+1493630169,Línia El Prat-Aeroport,Adif,1668,contact_line,110,branch,,,,R2N
+1493995219,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,100,main,,,,R8
+1493995220,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,R8
+1499973310,,Adif,1435;1668,,,branch,,,,
+1504120434,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+1504120435,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+1504120436,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+1504120437,Línia Castellbisbal/El Papiol - Mollet,Adif,1435;1668,contact_line,120,main,,,,246
+1506102691,Línia Barcelona-Manresa-Lleida,Adif,1668,contact_line,70,main,,,,R3;R4;R7

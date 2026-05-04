@@ -1,0 +1,3 @@
+route_id,route_short_name,route_long_name,route_desc,direction_id,service_family,num_trips,num_services
+51T0093R11,R11,Figueres                                -Barcelona-Sants                         ,,,other,727,30
+51T0094R11,R11,Barcelona-Sants                         -Figueres                                ,,,other,642,30

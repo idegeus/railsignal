@@ -1,0 +1,78 @@
+service_family,route_id,direction_id,from_stop_id,to_stop_id,from_stop_name,to_stop_name,num_trips,first_stop_sequence,last_stop_sequence
+other,51T0093R11,,79300,79203,Girona,Caldes De Malavella,400,1,6
+other,51T0093R11,,79309,79303,Figueres,Flaçà,357,1,4
+other,51T0093R11,,79309,79308,Figueres,Vilamalla,305,1,6
+other,51T0093R11,,79315,79314,Portbou,Colera,245,1,2
+other,51T0093R11,,79315,79312,Portbou,Llançà,106,1,2
+other,51T0093R11,,79309,79311,Figueres,Vilajuïga,22,1,2
+other,51T0093R11,,79203,79202,Caldes De Malavella,Sils,705,2,17
+other,51T0093R11,,79303,79300,Flaçà,Girona,357,2,5
+other,51T0093R11,,79308,79306,Vilamalla,Sant Miquel De Fluvià,305,2,7
+other,51T0093R11,,79314,79312,Colera,Llançà,245,2,3
+other,51T0093R11,,79312,79309,Llançà,Figueres,106,2,3
+other,51T0093R11,,79311,79312,Vilajuïga,Llançà,22,2,3
+other,51T0093R11,,79202,79200,Sils,Maçanet-Massanes,705,3,18
+other,51T0093R11,,79306,79305,Sant Miquel De Fluvià,Camallera,305,3,8
+other,51T0093R11,,79312,79311,Llançà,Vilajuïga,245,3,4
+other,51T0093R11,,79312,79314,Llançà,Colera,22,3,4
+other,51T0093R11,,79200,79104,Maçanet-Massanes,Sant Celoni,397,4,19
+other,51T0093R11,,79305,79304,Camallera,Sant Jordi Desvalls,305,4,9
+other,51T0093R11,,79311,79309,Vilajuïga,Figueres,245,4,5
+other,51T0093R11,,79314,79315,Colera,Portbou,22,4,5
+other,51T0093R11,,79104,79009,Sant Celoni,Barcelona-El Clot,397,5,20
+other,51T0093R11,,79304,79303,Sant Jordi Desvalls,Flaçà,305,5,10
+other,51T0093R11,,79009,71802,Barcelona-El Clot,Barcelona-Passeig De Gràcia,645,6,26
+other,51T0093R11,,79303,79302,Flaçà,Bordils-Juià,305,6,11
+other,51T0093R11,,71802,71801,Barcelona-Passeig De Gràcia,Barcelona-Sants,645,7,27
+other,51T0093R11,,79302,79301,Bordils-Juià,Celrà,305,7,12
+other,51T0093R11,,79301,79300,Celrà,Girona,305,8,13
+other,51T0093R11,,79200,79107,Maçanet-Massanes,Hostalric,248,8,19
+other,51T0093R11,,79300,79205,Girona,Fornells De La Selva,305,9,14
+other,51T0093R11,,79107,79106,Hostalric,Riells I Viabrea-Breda,248,9,20
+other,51T0093R11,,79205,79204,Fornells De La Selva,Riudellots,305,10,15
+other,51T0093R11,,79106,79105,Riells I Viabrea-Breda,Gualba,248,10,21
+other,51T0093R11,,79204,79203,Riudellots,Caldes De Malavella,305,11,16
+other,51T0093R11,,79105,79104,Gualba,Sant Celoni,248,11,22
+other,51T0093R11,,79104,79100,Sant Celoni,Granollers-Centre,248,12,23
+other,51T0093R11,,79100,79004,Granollers-Centre,Barcelona-Sant Andreu,248,13,24
+other,51T0093R11,,79004,79009,Barcelona-Sant Andreu,Barcelona-El Clot,248,14,25
+other,51T0093R11,,79200,79607,Maçanet-Massanes,Tordera,10,14,15
+other,51T0094R11,,71801,71802,Barcelona-Sants,Barcelona-Passeig De Gràcia,635,1,2
+other,51T0094R11,,79315,79314,Portbou,Colera,7,1,2
+other,51T0094R11,,71802,79009,Barcelona-Passeig De Gràcia,Barcelona-El Clot,635,2,3
+other,51T0094R11,,79314,79312,Colera,Llançà,7,2,3
+other,51T0094R11,,79009,79104,Barcelona-El Clot,Sant Celoni,394,3,4
+other,51T0094R11,,79009,79004,Barcelona-El Clot,Barcelona-Sant Andreu,241,3,4
+other,51T0094R11,,79312,79311,Llançà,Vilajuïga,7,3,4
+other,51T0094R11,,79104,79200,Sant Celoni,Maçanet-Massanes,394,4,5
+other,51T0094R11,,79004,79100,Barcelona-Sant Andreu,Granollers-Centre,241,4,5
+other,51T0094R11,,79311,79309,Vilajuïga,Figueres,7,4,5
+other,51T0094R11,,79200,79202,Maçanet-Massanes,Sils,635,5,11
+other,51T0094R11,,79100,79104,Granollers-Centre,Sant Celoni,241,5,6
+other,51T0094R11,,79202,79203,Sils,Caldes De Malavella,635,6,12
+other,51T0094R11,,79104,79105,Sant Celoni,Gualba,241,6,7
+other,51T0094R11,,79203,79300,Caldes De Malavella,Girona,394,7,8
+other,51T0094R11,,79105,79106,Gualba,Riells I Viabrea-Breda,241,7,8
+other,51T0094R11,,79300,79303,Girona,Flaçà,344,8,9
+other,51T0094R11,,79106,79107,Riells I Viabrea-Breda,Hostalric,241,8,9
+other,51T0094R11,,79303,79309,Flaçà,Figueres,344,9,10
+other,51T0094R11,,79107,79200,Hostalric,Maçanet-Massanes,241,9,10
+other,51T0094R11,,79309,79312,Figueres,Llançà,99,10,11
+other,51T0094R11,,79312,79315,Llançà,Portbou,99,11,12
+other,51T0094R11,,79203,79204,Caldes De Malavella,Riudellots,241,12,13
+other,51T0094R11,,79204,79205,Riudellots,Fornells De La Selva,241,13,14
+other,51T0094R11,,79205,79300,Fornells De La Selva,Girona,241,14,15
+other,51T0094R11,,79300,79301,Girona,Celrà,241,15,16
+other,51T0094R11,,79301,79302,Celrà,Bordils-Juià,241,16,17
+other,51T0094R11,,79302,79303,Bordils-Juià,Flaçà,241,17,18
+other,51T0094R11,,79303,79304,Flaçà,Sant Jordi Desvalls,241,18,19
+other,51T0094R11,,79304,79305,Sant Jordi Desvalls,Camallera,241,19,20
+other,51T0094R11,,79305,79306,Camallera,Sant Miquel De Fluvià,241,20,21
+other,51T0094R11,,79306,79308,Sant Miquel De Fluvià,Vilamalla,241,21,22
+other,51T0094R11,,79308,79309,Vilamalla,Figueres,241,22,23
+other,51T0094R11,,79309,79311,Figueres,Vilajuïga,241,23,24
+other,51T0094R11,,79311,79312,Vilajuïga,Llançà,241,24,25
+other,51T0094R11,,79312,79314,Llançà,Colera,241,25,26
+other,51T0094R11,,79314,79315,Colera,Portbou,241,26,27
+other,51T0094R11,,79315,79316,Portbou,Cerbère,181,27,28
+other,51T0094R11,,79316,79315,Cerbère,Portbou,181,28,29

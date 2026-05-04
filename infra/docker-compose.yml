@@ -1,0 +1,54 @@
+# Local development stack.
+# Requires: Docker Compose v2
+# Usage: docker compose -f infra/docker-compose.yml up -d
+#
+# Note: the `api` service requires backend/Dockerfile to exist once that
+# directory is scaffolded. Until then, comment out or remove the api service.
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: railsignal
+      POSTGRES_USER: railsignal
+      POSTGRES_PASSWORD: railsignal
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U railsignal"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://railsignal:railsignal@db:5432/railsignal
+    env_file:
+      - ../backend/.env
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      # Mount source for hot-reload in development
+      - ../backend:/app
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  martin:
+    image: ghcr.io/maplibre/martin:v0.14.0
+    ports:
+      - "3001:3000"
+    environment:
+      DATABASE_URL: postgresql://railsignal:railsignal@db:5432/railsignal
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

@@ -1,0 +1,3 @@
+route_id,median_num_stops,num_trips,service_guess,geom_source
+51T0093R11,12.0,727,unknown,shape:51_R11_INV
+51T0094R11,12.0,642,unknown,shape:51_R11

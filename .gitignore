@@ -1,0 +1,41 @@
+# Secrets — never commit these
+infra/.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Postgres dumps
+*.dump
+*.sql.gz
+
+# Local data
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / JS
+node_modules/
+.next/
+out/
+.expo/
+*.tgz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp

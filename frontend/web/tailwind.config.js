@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        'surface': '#f9f9f9',
+        'surface-dim': '#dadada',
+        'surface-bright': '#f9f9f9',
+        'surface-container-lowest': '#ffffff',
+        'surface-container-low': '#f3f3f3',
+        'surface-container': '#eeeeee',
+        'surface-container-high': '#e8e8e8',
+        'surface-container-highest': '#e2e2e2',
+        'on-surface': '#1a1c1c',
+        'on-surface-variant': '#5e3f3b',
+        'inverse-surface': '#2f3131',
+        'inverse-on-surface': '#f1f1f1',
+        'outline': '#936e69',
+        'outline-variant': '#e9bcb6',
+        'primary': '#b5000b',
+        'on-primary': '#ffffff',
+        'primary-container': '#e30613',
+        'secondary': '#705d00',
+        'secondary-container': '#fcd400',
+        'on-secondary-container': '#6e5c00',
+        'tertiary': '#a3245e',
+        'on-background': '#1a1c1c',
+        'transit-red': '#E30613',
+        'transit-yellow': '#FFD700',
+        'signal-good': '#2D8A2D',
+        'signal-fair': '#C07000',
+        'signal-poor': '#E30613',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      fontSize: {
+        'h1': ['56px', { lineHeight: '1.1', letterSpacing: '-0.02em', fontWeight: '700' }],
+        'h2': ['38px', { lineHeight: '1.2', letterSpacing: '-0.01em', fontWeight: '700' }],
+        'h3': ['28px', { lineHeight: '1.3', fontWeight: '600' }],
+        'body-lg': ['20px', { lineHeight: '1.6', fontWeight: '400' }],
+        'body-md': ['18px', { lineHeight: '1.5', fontWeight: '400' }],
+        'label': ['13px', { lineHeight: '1', letterSpacing: '0.05em', fontWeight: '700' }],
+      },
+      maxWidth: {
+        'container': '1280px',
+      },
+      spacing: {
+        'gutter': '24px',
+        'margin': '32px',
+      },
+    },
+  },
+  plugins: [],
+};

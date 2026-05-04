@@ -1,0 +1,62 @@
+import { useLang } from '../i18n';
+import { useDownload } from './DownloadModal';
+
+const SEGMENTS = [
+  { label: 'Barcelona',   width: 18 },
+  { label: 'Granollers',  width: 10 },
+  { label: 'Sant Celoni', width: 9 },
+  { label: 'Maçanet',     width: 8 },
+  { label: 'Girona',      width: 14 },
+  { label: 'Flaçà',       width: 6 },
+  { label: 'Figueres',    width: 11 },
+  { label: 'Portbou',     width: 16 },
+  { label: 'Cerbère',     width: 8 },
+];
+
+export default function RouteBar() {
+  const { t } = useLang();
+  const { openDownload } = useDownload();
+
+  return (
+    <section className="bg-inverse-surface text-white py-14">
+      <div className="max-w-container mx-auto px-margin">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-10">
+
+          <div className="flex-shrink-0 max-w-xs">
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-transit-yellow mb-2">
+              {t('Cobertura de Dades', 'Cobertura de Datos')}
+            </p>
+            <h2 className="text-xl font-bold mb-3">
+              {t('Cobertura per Kilometràge', 'Cobertura por Kilometraje')}
+            </h2>
+            <p className="text-sm text-white/60 leading-relaxed mb-6">
+              {t(
+                "Estem recollint les primeres lectures. La cobertura es mostrarà de forma contínua quan hi hagi prou dades al llarg de la ruta.",
+                'Estamos recopilando las primeras lecturas. La cobertura se mostrará de forma continua cuando haya suficientes datos a lo largo de la ruta.',
+              )}
+            </p>
+            <button
+              onClick={openDownload}
+              className="inline-flex items-center gap-2 border border-white/20 px-4 py-2 text-sm font-bold uppercase hover:bg-white/10 transition-colors"
+            >
+              <span className="material-symbols-outlined text-sm">volunteer_activism</span>
+              {t("Ajuda'ns a mapejar", 'Ayúdanos a mapear')}
+            </button>
+          </div>
+
+          <div className="flex-grow w-full min-w-0">
+            <div className="flex justify-between text-xs text-white/40 font-bold uppercase tracking-wider mb-2">
+              <span>Barcelona-Sants</span>
+              <span>Cerbère</span>
+            </div>
+            <div className="h-2 w-full bg-white/10 rounded-full" />
+            <p className="mt-3 text-xs text-white/40 uppercase tracking-wider">
+              {t('Sense dades suficients — disponible aviat', 'Sin datos suficientes — disponible pronto')}
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
