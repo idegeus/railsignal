@@ -74,6 +74,7 @@ async def ingest_readings(
             "timing_advance": r.timing_advance,
             "cell_count": r.cell_count,
             "last_ping_ms": r.last_ping_ms,
+            "last_ping_latency_ms": r.last_ping_latency_ms,
             "platform": r.platform,
             "app_version": r.app_version,
             "received_at": received_at,

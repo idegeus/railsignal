@@ -30,6 +30,7 @@ class ReadingIn(BaseModel):
     timing_advance: int | None = Field(None, ge=0, le=1282)
     cell_count: int | None = Field(None, ge=0)
     last_ping_ms: int | None = None
+    last_ping_latency_ms: int | None = Field(None, ge=0)
     platform: Literal["android", "ios"] | None = None
     app_version: str | None = None
 

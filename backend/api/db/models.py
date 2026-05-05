@@ -56,6 +56,7 @@ class SignalReading(Base):
     timing_advance: Mapped[int | None] = mapped_column(Integer)
     cell_count: Mapped[int | None] = mapped_column(Integer)
     last_ping_ms: Mapped[int | None] = mapped_column(BigInteger)
+    last_ping_latency_ms: Mapped[int | None] = mapped_column(Integer)
     platform: Mapped[str | None] = mapped_column(Text)
     app_version: Mapped[str | None] = mapped_column(Text)
 
