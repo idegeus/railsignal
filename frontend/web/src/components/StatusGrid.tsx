@@ -8,7 +8,7 @@ type Stats = { readings: number; journeys: number; stations: number };
 const ZERO: Stats = { readings: 0, journeys: 0, stations: 0 };
 const INITIAL_OFFSET = 20;   // start this many below the real value
 const INITIAL_DURATION = 4_000;
-const UPDATE_DURATION = 1_500;
+const UPDATE_DURATION = 60_000;
 
 function easeOut(t: number) {
   return 1 - Math.pow(1 - t, 3);
@@ -83,7 +83,7 @@ function useAnimatedStats(): Stats {
     }
 
     fetchAndUpdate();
-    const id = setInterval(fetchAndUpdate, 10_000);
+    const id = setInterval(fetchAndUpdate, 60_000);
     return () => {
       clearInterval(id);
       if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
@@ -133,6 +133,15 @@ export default function StatusGrid() {
   return (
     <section className="max-w-container mx-auto px-margin py-20" id="dades">
       <div className="mb-12">
+        <div className="flex items-center gap-3 mb-3">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-signal-good opacity-60" />
+            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-signal-good" />
+          </span>
+          <span className="text-label text-signal-good uppercase tracking-widest">
+            {t('En Directe', 'En Directo', 'Live')}
+          </span>
+        </div>
         <h2 className="text-h2 font-bold text-on-surface tracking-tight">
           {t('Estat del Servei R11', 'Estado del Servicio R11', 'R11 Service Status')}
         </h2>
