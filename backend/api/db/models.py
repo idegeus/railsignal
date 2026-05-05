@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from geoalchemy2 import Geometry
 from sqlalchemy import (
-    Float, ForeignKey, Integer, String, Text, func,
+    BigInteger, Float, ForeignKey, Integer, String, Text, func,
 )
 from sqlalchemy.dialects.postgresql import TIMESTAMP, UUID
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
@@ -41,10 +41,21 @@ class SignalReading(Base):
     location: Mapped[object | None] = mapped_column(Geometry("POINT", srid=4326))
 
     signal_dbm: Mapped[int | None] = mapped_column(Integer)
+    rsrp: Mapped[int | None] = mapped_column(Integer)
+    rsrq: Mapped[int | None] = mapped_column(Integer)
+    sinr: Mapped[float | None] = mapped_column(Float)
     network_type: Mapped[str | None] = mapped_column(String(8))
     mcc: Mapped[str | None] = mapped_column(String(5))
     mnc: Mapped[str | None] = mapped_column(String(5))
     speed_kmh: Mapped[float | None] = mapped_column(Float)
+    gps_accuracy: Mapped[float | None] = mapped_column(Float)
+    pci: Mapped[int | None] = mapped_column(Integer)
+    earfcn: Mapped[int | None] = mapped_column(Integer)
+    band: Mapped[int | None] = mapped_column(Integer)
+    cqi: Mapped[int | None] = mapped_column(Integer)
+    timing_advance: Mapped[int | None] = mapped_column(Integer)
+    cell_count: Mapped[int | None] = mapped_column(Integer)
+    last_ping_ms: Mapped[int | None] = mapped_column(BigInteger)
     platform: Mapped[str | None] = mapped_column(Text)
     app_version: Mapped[str | None] = mapped_column(Text)
 

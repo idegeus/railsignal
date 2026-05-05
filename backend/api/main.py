@@ -24,6 +24,6 @@ app.include_router(stats.router, prefix="/api/v1")
 app.include_router(signup.router, prefix="/api/v1")
 
 
-@app.get("/health")
+@app.get("/api/health")
 async def health():
     return {"status": "ok"}
