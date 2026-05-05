@@ -1,5 +1,3 @@
-// Tasks must be registered before the app renders — expo-task-manager requirement.
-import './services/backgroundLogger';
 import './services/stationDetector';
 
 import { useEffect, useState } from 'react';
@@ -15,7 +13,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useFonts, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
 import { randomUUID } from 'expo-crypto';
 import * as Location from 'expo-location';
-import { startLogging, stopLogging, isLogging } from './services/backgroundLogger';
+import NativeBackgroundLogger from './modules/background-logger';
 import {
   startStationDetection,
   isStationDetectionRunning,
@@ -23,8 +21,7 @@ import {
   getNearestStation,
   type NearestStation,
 } from './services/stationDetector';
-import { startJourney, endJourney, getReadingCount } from './store/db';
-import { exportCsv } from './services/exporter';
+import { startJourney, endJourney, getReadingCount, getPendingReadingCount, getRecentReadings } from './store/db';
 import { uploadPendingReadings } from './services/uploader';
 import { getNearestSection, type NearbySection } from './services/sectionDetector';
 import { hasSeenOnboarding, markOnboardingDone } from './store/settings';
@@ -32,6 +29,69 @@ import Onboarding from './components/Onboarding';
 import SignalChart from './components/SignalChart';
 import { colors } from './theme';
 import { t } from './i18n';
+
+function formatLastPing(ts: number): string {
+  const diffSec = Math.floor((Date.now() - ts) / 1000);
+  if (diffSec < 60) return t.pingJustNow;
+  return `${Math.floor(diffSec / 60)} ${t.pingMinAgo}`;
+}
+
+function dbmToQuality(dbm: number | null): { label: string; color: string; bars: number } {
+  if (dbm === null) return { label: t.signalNone,     color: colors.textMuted, bars: 0 };
+  if (dbm > -75)   return { label: t.signalExcellent, color: '#22c55e',        bars: 5 };
+  if (dbm > -85)   return { label: t.signalGood,      color: '#4ade80',        bars: 4 };
+  if (dbm > -95)   return { label: t.signalFair,      color: '#fbbf24',        bars: 3 };
+  if (dbm > -105)  return { label: t.signalPoor,      color: '#f97316',        bars: 2 };
+  return                  { label: t.signalVeryPoor,  color: colors.primary,   bars: 1 };
+}
+
+function SignalIndicator({ dbm, active }: { dbm: number | null; active: boolean }) {
+  const { label, color, bars } = active ? dbmToQuality(dbm) : { label: '—', color: colors.textMuted, bars: 0 };
+  return (
+    <View style={sigStyles.wrapper}>
+      <View style={sigStyles.bars}>
+        {[1, 2, 3, 4, 5].map(b => (
+          <View
+            key={b}
+            style={[
+              sigStyles.bar,
+              { height: 6 + b * 7, backgroundColor: b <= bars ? color : colors.neutralBorder },
+            ]}
+          />
+        ))}
+      </View>
+      <Text style={[sigStyles.label, { color }]}>{label}</Text>
+      {active && dbm !== null && (
+        <Text style={sigStyles.dbm}>{dbm} dBm</Text>
+      )}
+    </View>
+  );
+}
+
+const sigStyles = StyleSheet.create({
+  wrapper: {
+    alignItems: 'center',
+    gap: 10,
+  },
+  bars: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: 5,
+  },
+  bar: {
+    width: 14,
+    borderRadius: 3,
+  },
+  label: {
+    fontSize: 22,
+    fontFamily: 'Inter_600SemiBold',
+  },
+  dbm: {
+    fontSize: 13,
+    fontFamily: 'Inter_400Regular',
+    color: colors.textMuted,
+  },
+});
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
@@ -43,16 +103,16 @@ export default function App() {
   const [busy, setBusy] = useState(false);
   const [currentSection, setCurrentSection] = useState<NearbySection | null>(null);
   const [nearestStation, setNearestStation] = useState<NearestStation | null>(null);
+  const [lastDbm, setLastDbm] = useState<number | null>(null);
+  const [pendingCount, setPendingCount] = useState(0);
+  const [lastPingMs, setLastPingMs] = useState<number | null>(null);
 
   useEffect(() => {
     hasSeenOnboarding().then(setOnboardingDone);
-    // If the native task survived a JS restart (killed app, reinstall, hot reload),
-    // stop it so the user always starts from a clean "not logging" state.
-    isLogging().then(async (running) => {
-      if (running) await stopLogging();
-      setLogging(false);
-    });
+    if (NativeBackgroundLogger.isRunning()) NativeBackgroundLogger.stop();
+    setLogging(false);
     refreshCount();
+    uploadPendingReadings().catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -63,16 +123,18 @@ export default function App() {
     if (!logging) {
       setCurrentSection(null);
       setNearestStation(null);
+      setLastDbm(null);
       return;
     }
-    const timer = setInterval(refreshCount, 5_000);
+    const timer = setInterval(refreshCount, 2_000);
     const sectionTimer = setInterval(refreshSection, 15_000);
-    const uploadTimer = setInterval(() => uploadPendingReadings().catch(() => {}), 120_000);
+    const signalTimer = setInterval(refreshSignal, 3_000);
     refreshSection();
+    refreshSignal();
     return () => {
       clearInterval(timer);
       clearInterval(sectionTimer);
-      clearInterval(uploadTimer);
+      clearInterval(signalTimer);
     };
   }, [logging]);
 
@@ -89,7 +151,10 @@ export default function App() {
   }
 
   async function refreshCount() {
-    setCount(await getReadingCount());
+    const [total, pending] = await Promise.all([getReadingCount(), getPendingReadingCount()]);
+    setCount(total);
+    setPendingCount(pending);
+    NativeBackgroundLogger.getLastPingMs().then(setLastPingMs).catch(() => {});
   }
 
   async function refreshSection() {
@@ -100,19 +165,31 @@ export default function App() {
     setNearestStation(getNearestStation(latitude, longitude));
   }
 
+  async function refreshSignal() {
+    const readings = await getRecentReadings(Date.now() - 30_000);
+    const latest = readings[readings.length - 1];
+    setLastDbm(latest?.signal_dbm ?? null);
+  }
+
   async function handleToggle() {
     setBusy(true);
     try {
       if (logging) {
-        await stopLogging();
+        NativeBackgroundLogger.stop();
         if (journeyId) await endJourney(journeyId);
         setJourneyId(null);
         setLogging(false);
         uploadPendingReadings().catch(() => {});
       } else {
+        await requestNotificationPermission();
+
+        const { status } = await Location.requestForegroundPermissionsAsync();
+        if (status !== 'granted') throw new Error('Foreground location permission denied');
+        await Location.requestBackgroundPermissionsAsync();
+
         const id = randomUUID();
         await startJourney(id);
-        await startLogging(id);
+        NativeBackgroundLogger.start(id);
         setJourneyId(id);
         setLogging(true);
       }
@@ -120,14 +197,6 @@ export default function App() {
       Alert.alert('Error', e instanceof Error ? e.message : String(e));
     } finally {
       setBusy(false);
-    }
-  }
-
-  async function handleExport() {
-    try {
-      await exportCsv();
-    } catch (e: unknown) {
-      Alert.alert('Export failed', e instanceof Error ? e.message : String(e));
     }
   }
 
@@ -148,44 +217,52 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="dark" />
 
-      <View style={styles.counter}>
-        <Text style={styles.counterValue}>{count}</Text>
-        <Text style={styles.counterLabel}>{t.readingsStored}</Text>
+      <View style={styles.topSection}>
+        <SignalIndicator dbm={lastDbm} active={logging} />
       </View>
 
-      {busy ? (
-        <ActivityIndicator color={colors.primary} size="large" />
-      ) : (
-        <Pressable
-          onPress={handleToggle}
-          style={[styles.button, logging ? styles.buttonStop : styles.buttonStart]}
-        >
-          <Text style={styles.buttonText}>
-            {logging ? t.stopLogging : t.startLogging}
-          </Text>
-        </Pressable>
-      )}
-
-      {logging && (
-        <View style={styles.statusBlock}>
-          <Text style={styles.statusText}>{t.recording}</Text>
-          {currentSection ? (
-            <Text style={styles.sectionText}>
-              {currentSection.fromName} → {currentSection.toName}
+      <View style={styles.middleSection}>
+        {busy ? (
+          <ActivityIndicator color={colors.primary} size="large" />
+        ) : (
+          <Pressable
+            onPress={handleToggle}
+            style={[styles.button, logging ? styles.buttonStop : styles.buttonStart]}
+          >
+            <Text style={styles.buttonText}>
+              {logging ? t.stopLogging : t.startLogging}
             </Text>
-          ) : nearestStation ? (
-            <Text style={styles.sectionTextDim}>
-              {t.nearStation} {nearestStation.name}
-            </Text>
-          ) : null}
-        </View>
-      )}
+          </Pressable>
+        )}
 
-      {logging && <SignalChart />}
+        {logging && (
+          <View style={styles.statusBlock}>
+            <Text style={styles.statusText}>{t.recording}</Text>
+            {currentSection ? (
+              <Text style={styles.sectionText}>
+                {currentSection.fromName} → {currentSection.toName}
+              </Text>
+            ) : nearestStation ? (
+              <Text style={styles.sectionTextDim}>
+                {t.nearStation} {nearestStation.name}
+              </Text>
+            ) : null}
+          </View>
+        )}
+      </View>
 
-      <Pressable onPress={handleExport} style={styles.exportButton}>
-        <Text style={styles.exportText}>{t.exportCsv}</Text>
-      </Pressable>
+      <View style={styles.bottomSection}>
+        {logging && <SignalChart />}
+        <Text style={styles.countText}>{count.toLocaleString()} {t.readingsStored}</Text>
+        {pendingCount > 0 && (
+          <Text style={styles.pingText}>{pendingCount.toLocaleString()} {t.pendingUpload}</Text>
+        )}
+        <Text style={styles.pingText}>
+          {lastPingMs === null
+            ? t.pingNever
+            : `${t.lastPingLabel} ${formatLastPing(lastPingMs)}`}
+        </Text>
+      </View>
     </View>
   );
 }
@@ -194,23 +271,22 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.neutral,
+    paddingHorizontal: 24,
+    paddingTop: 72,
+    paddingBottom: 40,
+    justifyContent: 'space-between',
+  },
+  topSection: {
     alignItems: 'center',
-    justifyContent: 'center',
+    paddingTop: 16,
+  },
+  middleSection: {
+    alignItems: 'center',
     gap: 20,
-    padding: 24,
   },
-  counter: {
+  bottomSection: {
     alignItems: 'center',
-  },
-  counterValue: {
-    fontSize: 64,
-    fontFamily: 'Inter_700Bold',
-    color: colors.text,
-  },
-  counterLabel: {
-    fontSize: 13,
-    fontFamily: 'Inter_400Regular',
-    color: colors.textMuted,
+    gap: 12,
   },
   button: {
     paddingHorizontal: 40,
@@ -249,17 +325,14 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: colors.textMuted,
   },
-  exportButton: {
-    paddingHorizontal: 24,
-    paddingVertical: 10,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: colors.neutralBorder,
-    backgroundColor: colors.white,
-  },
-  exportText: {
+  countText: {
     fontFamily: 'Inter_400Regular',
-    fontSize: 14,
-    color: colors.textSecondary,
+    fontSize: 12,
+    color: colors.textMuted,
+  },
+  pingText: {
+    fontFamily: 'Inter_400Regular',
+    fontSize: 11,
+    color: colors.textMuted,
   },
 });

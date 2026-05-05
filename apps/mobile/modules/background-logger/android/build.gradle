@@ -1,0 +1,29 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.backgroundlogger'
+version = '1.0.0'
+
+android {
+  namespace "expo.modules.backgroundlogger"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+  }
+  lintOptions {
+    abortOnError false
+  }
+  sourceSets {
+    // Expose the shared data directory as Android assets so the native module
+    // can read r11_stations.json without duplicating the file.
+    main {
+      assets.srcDirs += ['../../../data']
+    }
+  }
+}
+
+dependencies {
+  implementation 'com.google.android.gms:play-services-location:21.0.1'
+}

@@ -38,7 +38,6 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-sqlite",
       [
         "expo-location",
         {
@@ -59,6 +58,12 @@
       ],
       "expo-font",
       "expo-localization"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8536a009-e755-4943-a7bd-ced99a79e212"
+      }
+    },
+    "owner": "ivodg"
   }
 }

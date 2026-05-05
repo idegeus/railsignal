@@ -1,30 +1,50 @@
 import { useEffect, useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { getRecentReadings, type RecentReading } from '../store/db';
+import NativeBackgroundLogger from '../modules/background-logger';
 import { colors } from '../theme';
 import { t } from '../i18n';
 
 const WINDOW_MS = 5 * 60 * 1000;
 const CHART_HEIGHT = 64;
 
-// dBm range used for bar height: -120 (floor) to -50 (ceiling)
 function dbmToRatio(dbm: number): number {
   return Math.max(0, Math.min(1, (dbm + 120) / 70));
 }
 
 function barColor(dbm: number | null): string {
   if (dbm === null) return colors.neutralBorder;
-  if (dbm > -85)  return '#4ade80'; // good
-  if (dbm > -100) return colors.secondary; // fair
-  return colors.primary; // poor
+  if (dbm > -85)  return '#4ade80';
+  if (dbm > -100) return colors.secondary;
+  return colors.primary;
+}
+
+function pingBarIndices(readings: RecentReading[], pings: number[]): Set<number> {
+  const indices = new Set<number>();
+  for (const pingTs of pings) {
+    let best = -1;
+    let bestDiff = Infinity;
+    for (let i = 0; i < readings.length; i++) {
+      const diff = Math.abs(readings[i].timestamp - pingTs);
+      if (diff < bestDiff) { bestDiff = diff; best = i; }
+    }
+    if (best >= 0) indices.add(best);
+  }
+  return indices;
 }
 
 export default function SignalChart() {
   const [readings, setReadings] = useState<RecentReading[]>([]);
+  const [pingIndices, setPingIndices] = useState<Set<number>>(new Set());
 
   async function refresh() {
     const since = Date.now() - WINDOW_MS;
-    setReadings(await getRecentReadings(since));
+    const [data, pings] = await Promise.all([
+      getRecentReadings(since),
+      NativeBackgroundLogger.getRecentPingMs(since),
+    ]);
+    setReadings(data);
+    setPingIndices(pingBarIndices(data, pings));
   }
 
   useEffect(() => {
@@ -57,6 +77,7 @@ export default function SignalChart() {
                   },
                 ]}
               />
+              {pingIndices.has(i) && <View style={styles.pingMark} />}
             </View>
           );
         })}
@@ -82,11 +103,21 @@ const styles = StyleSheet.create({
   },
   barWrapper: {
     flex: 1,
+    height: CHART_HEIGHT,
     justifyContent: 'flex-end',
   },
   bar: {
     borderRadius: 2,
     width: '100%',
+  },
+  pingMark: {
+    position: 'absolute',
+    top: 2,
+    alignSelf: 'center',
+    width: 5,
+    height: 5,
+    borderRadius: 2.5,
+    backgroundColor: '#22c55e',
   },
   labels: {
     flexDirection: 'row',
