@@ -17,7 +17,7 @@ declare class BackgroundLoggerModule extends NativeModule {
   getLastPingMs(): Promise<number | null>;
   getRecentPingMs(sinceMs: number): Promise<number[]>;
   setLastPingMs(ts: number, latencyMs: number): Promise<void>;
-  getRecentReadings(sinceMs: number): Promise<Array<{ timestamp: number; signal_dbm: number | null }>>;
+  getRecentReadings(sinceMs: number): Promise<Array<{ timestamp: number; signal_dbm: number | null; last_ping_ms: number | null }>>;
   getPendingReadings(limit: number): Promise<Record<string, unknown>[]>;
   markUploaded(ids: string[]): Promise<void>;
   getAllReadings(): Promise<Record<string, unknown>[]>;

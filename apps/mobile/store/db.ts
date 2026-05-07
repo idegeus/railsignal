@@ -76,7 +76,7 @@ export async function getAllReadings() {
   return rows as Record<string, unknown>[];
 }
 
-export type RecentReading = { timestamp: number; signal_dbm: number | null };
+export type RecentReading = { timestamp: number; signal_dbm: number | null; last_ping_ms: number | null };
 
 export async function getRecentReadings(sinceMs: number): Promise<RecentReading[]> {
   return NativeBackgroundLogger.getRecentReadings(sinceMs);

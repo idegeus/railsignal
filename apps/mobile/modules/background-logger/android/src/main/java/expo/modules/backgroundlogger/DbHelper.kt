@@ -202,7 +202,7 @@ object DbHelper {
 
     fun getRecentReadings(sinceMs: Long): List<Map<String, Any?>> {
         val cursor = db?.rawQuery(
-            "SELECT timestamp, signal_dbm FROM signal_reading WHERE timestamp > ? ORDER BY timestamp ASC",
+            "SELECT timestamp, signal_dbm, last_ping_ms FROM signal_reading WHERE timestamp > ? ORDER BY timestamp ASC",
             arrayOf(sinceMs.toString())
         ) ?: return emptyList()
         return cursor.use { it.toListOfMaps() }

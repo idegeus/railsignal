@@ -7,7 +7,6 @@ import { t } from '../i18n';
 
 const WINDOW_MS = 5 * 60 * 1000;
 const CHART_HEIGHT = 64;
-
 function dbmToRatio(dbm: number): number {
   return Math.max(0, Math.min(1, (dbm + 120) / 70));
 }
@@ -19,32 +18,22 @@ function barColor(dbm: number | null): string {
   return colors.primary;
 }
 
-function pingBarIndices(readings: RecentReading[], pings: number[]): Set<number> {
-  const indices = new Set<number>();
-  for (const pingTs of pings) {
-    let best = -1;
-    let bestDiff = Infinity;
-    for (let i = 0; i < readings.length; i++) {
-      const diff = Math.abs(readings[i].timestamp - pingTs);
-      if (diff < bestDiff) { bestDiff = diff; best = i; }
-    }
-    if (best >= 0) indices.add(best);
-  }
-  return indices;
+function pingDotColor(readingTs: number, pings: number[]): string {
+  return pings.some(p => Math.abs(readingTs - p) <= 12_000) ? '#22c55e' : colors.primary;
 }
 
 export default function SignalChart() {
   const [readings, setReadings] = useState<RecentReading[]>([]);
-  const [pingIndices, setPingIndices] = useState<Set<number>>(new Set());
+  const [pings, setPings] = useState<number[]>([]);
 
   async function refresh() {
     const since = Date.now() - WINDOW_MS;
-    const [data, pings] = await Promise.all([
+    const [data, pingTs] = await Promise.all([
       getRecentReadings(since),
       NativeBackgroundLogger.getRecentPingMs(since),
     ]);
     setReadings(data);
-    setPingIndices(pingBarIndices(data, pings));
+    setPings(pingTs);
   }
 
   useEffect(() => {
@@ -64,23 +53,20 @@ export default function SignalChart() {
   return (
     <View style={styles.wrapper}>
       <View style={styles.chart}>
-        {readings.map((r, i) => {
-          const ratio = r.signal_dbm !== null ? dbmToRatio(r.signal_dbm) : 0.03;
-          return (
-            <View key={i} style={styles.barWrapper}>
-              <View
-                style={[
-                  styles.bar,
-                  {
-                    height: Math.max(2, ratio * CHART_HEIGHT),
-                    backgroundColor: barColor(r.signal_dbm),
-                  },
-                ]}
-              />
-              {pingIndices.has(i) && <View style={styles.pingMark} />}
-            </View>
-          );
-        })}
+        {readings.map((r, i) => (
+          <View key={i} style={styles.barWrapper}>
+            <View
+              style={[
+                styles.bar,
+                {
+                  height: Math.max(2, dbmToRatio(r.signal_dbm ?? 0) * CHART_HEIGHT),
+                  backgroundColor: barColor(r.signal_dbm),
+                },
+              ]}
+            />
+            <View style={[styles.pingMark, { backgroundColor: pingDotColor(r.timestamp, pings) }]} />
+          </View>
+        ))}
       </View>
       <View style={styles.labels}>
         <Text style={styles.labelText}>{t.minLabel}</Text>
@@ -112,7 +98,7 @@ const styles = StyleSheet.create({
   },
   pingMark: {
     position: 'absolute',
-    top: 2,
+    bottom: -8,
     alignSelf: 'center',
     width: 5,
     height: 5,
@@ -122,7 +108,7 @@ const styles = StyleSheet.create({
   labels: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 4,
+    marginTop: 16,
   },
   labelText: {
     fontSize: 10,
