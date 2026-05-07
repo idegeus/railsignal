@@ -19,16 +19,16 @@ export default function AboutUs() {
             <div className="flex flex-col gap-5 text-body-lg text-on-surface-variant leading-relaxed">
               <p>
                 {t(
-                  "Som viatgers habituals de la línia R11, entre Flaçà i Barcelona. Cada setmana fem aquest trajecte i cada setmana ens trobem amb el mateix problema: zones sense cobertura, connexions inestables i la impossibilitat de treballar o descansar connectats durant el viatge.",
-                  'Somos viajeros habituales de la línea R11, entre Flaçà y Barcelona. Cada semana hacemos este trayecto y cada semana nos encontramos con el mismo problema: zonas sin cobertura, conexiones inestables y la imposibilidad de trabajar o descansar conectados durante el viaje.',
-                  "We're regular commuters on the R11 line, between Flaçà and Barcelona. Every week we make this journey and every week we face the same problem: dead zones, unstable connections, and the impossibility of working or staying connected during the trip.",
+                  "Som viatgers habituals de la línia R11, entre Flaçà i Barcelona. Cada vegada que fem aquest trajecte ens trobem amb el mateix problema: zones sense cobertura, connexions inestables i la impossibilitat de treballar o descansar connectats durant el viatge.",
+                  'Somos viajeros habituales de la línea R11, entre Flaçà y Barcelona. Cada vez que hacemos este trayecto nos encontramos con el mismo problema: zonas sin cobertura, conexiones inestables y la imposibilidad de trabajar o descansar conectados durante el viaje.',
+                  "We're regular passengers on the R11 line, between Flaçà and Barcelona. Every time we make this journey we face the same problem: dead zones, unstable connections, and the impossibility of working or staying connected during the trip.",
                 )}
               </p>
               <p>
                 {t(
-                  "Vivim prop de Girona i ens agradaria poder utilitzar el tren molt més. És el transport més sostenible, el més còmode per a distàncies llargues, i hauria de ser la primera opció. Però sense internet, molts dies el cotxe guanya.",
-                  'Vivimos cerca de Girona y nos gustaría poder utilizar el tren mucho más. Es el transporte más sostenible, el más cómodo para distancias largas, y debería ser la primera opción. Pero sin internet, muchos días el coche gana.',
-                  "We live near Girona and would love to use the train much more. It's the most sustainable transport, the most comfortable for long distances, and should be the first choice. But without internet, too many days the car wins.",
+                  "Ens encantaria poder utilitzar el tren molt més. És el transport més sostenible, el més còmode per a distàncies llargues, i hauria de ser la primera opció. Però sense internet, molts dies el cotxe guanya.",
+                  'Nos encantaría poder utilizar el tren mucho más. Es el transporte más sostenible, el más cómodo para distancias largas, y debería ser la primera opción. Pero sin internet, muchos días el coche gana.',
+                  "We'd love to use the train much more. It's the most sustainable transport, the most comfortable for long distances, and should be the first choice. But without internet, too many days the car wins.",
                 )}
               </p>
               <p>

@@ -17,7 +17,7 @@ export default function Footer() {
             Vies amb Cobertura
           </span>
           <p className="text-xs tracking-widest uppercase text-on-surface-variant text-center md:text-left">
-            © 2025 viesambcobertura.cat — {t('Projecte de codi obert', 'Proyecto de código abierto', 'Open-source project')}
+            © 2026 viesambcobertura.cat — {t('Projecte de codi obert', 'Proyecto de código abierto', 'Open-source project')}
           </p>
         </div>
 

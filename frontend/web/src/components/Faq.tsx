@@ -7,7 +7,7 @@ const FAQS: Record<Lang, FaqItem[]> = {
   ca: [
     {
       question: 'Cobrirà altres línies ferroviàries de Catalunya?',
-      answer: "Comencem amb la R11 perquè és la nostra línia diària. Si hi ha prou persones interessades a contribuir en altres línies — com la R1, la R2 o qualsevol altra — estarem encantats d'expandir el projecte. Posa't en contacte amb nosaltres o baixa l'app i comença a registrar.",
+      answer: "Comencem amb la R11 perquè és la línia que fem servir habitualment. Si hi ha prou persones interessades a contribuir en altres línies — com la R1, la R2 o qualsevol altra — estarem encantats d'expandir el projecte. Posa't en contacte amb nosaltres o baixa l'app i comença a registrar.",
     },
     {
       question: "I les línies d'alta velocitat o els Rodalies de Madrid?",
@@ -33,7 +33,7 @@ const FAQS: Record<Lang, FaqItem[]> = {
   es: [
     {
       question: '¿Cubrirá otras líneas ferroviarias de Cataluña?',
-      answer: "Empezamos con la R11 porque es nuestra línea diaria. Si hay suficientes personas interesadas en contribuir en otras líneas — como la R1, la R2 o cualquier otra — estaremos encantados de expandir el proyecto. Contáctanos o descarga la app y empieza a registrar.",
+      answer: "Empezamos con la R11 porque es la línea que usamos regularmente. Si hay suficientes personas interesadas en contribuir en otras líneas — como la R1, la R2 o cualquier otra — estaremos encantados de expandir el proyecto. Contáctanos o descarga la app y empieza a registrar.",
     },
     {
       question: '¿Y las líneas de alta velocidad o los Cercanías de Madrid?',
@@ -59,7 +59,7 @@ const FAQS: Record<Lang, FaqItem[]> = {
   en: [
     {
       question: 'Will it cover other railway lines in Catalonia?',
-      answer: "We're starting with the R11 because it's our daily line. If enough people are interested in contributing to other lines — like the R1, R2, or others — we'd love to expand the project. Get in touch or download the app and start recording.",
+      answer: "We're starting with the R11 because it's a line we use regularly. If enough people are interested in contributing to other lines — like the R1, R2, or others — we'd love to expand the project. Get in touch or download the app and start recording.",
     },
     {
       question: 'What about high-speed lines or Madrid commuter rail?',
